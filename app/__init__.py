@@ -15,6 +15,9 @@ def create_app(config_overrides=None):
     if config_overrides:
         app.config.update(config_overrides)
 
+    from app.config import validate_vercel_config
+    validate_vercel_config(app.config)
+
     from app.services.classification import Classifier
     app.extensions['item_classifier'] = Classifier(app.config)
 

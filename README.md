@@ -4,6 +4,9 @@
 
 ## 使用方式
 
+线上完整部署（Vercel Services + Neon）参见 [部署说明](docs/VERCEL_DEPLOYMENT.md)。
+本地启动方式保持不变；线上新数据库不会自动导入本地账号和商品。
+
 Windows 双击项目根目录的 `启动.bat`。优先使用 `D:\Node.js\node.exe`，后端使用项目内 `.venv`。
 以窗口显示的 `Frontend:` 地址为准；3000 被占用时自动选择后续可用端口。
 保持启动窗口开启，Ctrl+C 停止本窗口启动的服务。启动日志在 `logs/startup-*.log`。
