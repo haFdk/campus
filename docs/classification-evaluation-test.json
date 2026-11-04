@@ -1,0 +1,734 @@
+{
+  "warning": "Agent-authored synthetic smoke samples; not real-user or independently human-labeled evaluation.",
+  "model": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+  "revision": "8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+  "split": "test",
+  "template": "这段文字描述的是{label}。",
+  "thresholds": {
+    "CLASSIFICATION_MIN_MARGIN": 0.25,
+    "CLASSIFICATION_MIN_SCORE": 0.45,
+    "CLASSIFICATION_MIN_SUPPORT": 0.7
+  },
+  "environment": {
+    "python": "3.12.10",
+    "cpu": "Intel64 Family 6 Model 204 Stepping 2, GenuineIntel",
+    "threads": 2,
+    "ram_gb": 31.51613998413086
+  },
+  "load_seconds": 7.333694900007686,
+  "rss_mb": 1661.828125,
+  "median_seconds": 0.6418513500029803,
+  "p95_seconds": 0.7516267000028165,
+  "top1_accuracy_classifiable": 0.55,
+  "macro_f1_classifiable": 0.5555844155844156,
+  "recommendation_coverage_all": 0.5652173913043478,
+  "accepted_accuracy": 0.6538461538461539,
+  "per_class": {
+    "电子产品": {
+      "support": 4,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    "书籍": {
+      "support": 4,
+      "precision": 0.5,
+      "recall": 0.25,
+      "f1": 0.3333333333333333
+    },
+    "服装": {
+      "support": 4,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    "家居用品": {
+      "support": 4,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "f1": 0.8
+    },
+    "运动器材": {
+      "support": 4,
+      "precision": 0.5714285714285714,
+      "recall": 1.0,
+      "f1": 0.7272727272727273
+    },
+    "乐器": {
+      "support": 4,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4
+    },
+    "工具": {
+      "support": 4,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "玩具": {
+      "support": 4,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "艺术品": {
+      "support": 4,
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285714
+    },
+    "其他": {
+      "support": 4,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4
+    }
+  },
+  "results": [
+    {
+      "split": "test",
+      "label": "电子产品",
+      "text": "平板电脑，128G，触屏和电池正常，送保护套。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.9633203148841858,
+        "support": 0.9999016523361206
+      },
+      "margin": 0.9375005513429642,
+      "accepted": true,
+      "seconds": 0.7439371999935247
+    },
+    {
+      "split": "test",
+      "label": "电子产品",
+      "text": "降噪头戴式耳机，蓝牙连接稳定，耳罩无破损。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.6274023056030273,
+        "support": 0.9998037219047546
+      },
+      "margin": 0.31969812512397766,
+      "accepted": true,
+      "seconds": 0.682931399991503
+    },
+    {
+      "split": "test",
+      "label": "电子产品",
+      "text": "移动硬盘2TB，存过课程视频，格式化后面交。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.9554375410079956,
+        "support": 0.9998742341995239
+      },
+      "margin": 0.9183425083756447,
+      "accepted": true,
+      "seconds": 0.6443215000035707
+    },
+    {
+      "split": "test",
+      "label": "电子产品",
+      "text": "显示器24寸，HDMI接口正常，无坏点。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.9686504602432251,
+        "support": 0.9999316930770874
+      },
+      "margin": 0.942463755607605,
+      "accepted": true,
+      "seconds": 0.5980177999881562
+    },
+    {
+      "split": "test",
+      "label": "书籍",
+      "text": "高等数学上下册教材，课后题写了部分答案。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "书籍",
+        "score": 0.9655642509460449,
+        "support": 0.9884583353996277
+      },
+      "margin": 0.9509778236970305,
+      "accepted": true,
+      "seconds": 0.609088299999712
+    },
+    {
+      "split": "test",
+      "label": "书籍",
+      "text": "一套科幻小说，封面有折痕，内页无缺损。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.7048452496528625,
+        "support": 0.30885419249534607
+      },
+      "margin": 0.6498646140098572,
+      "accepted": false,
+      "seconds": 0.6471209999872372
+    },
+    {
+      "split": "test",
+      "label": "书籍",
+      "text": "自动铅笔加两盒笔芯，用于日常做题。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.8962828516960144,
+        "support": 0.9998268485069275
+      },
+      "margin": 0.8196141421794891,
+      "accepted": true,
+      "seconds": 0.5990024000057019
+    },
+    {
+      "split": "test",
+      "label": "书籍",
+      "text": "活页笔记本，A5尺寸，附空白替芯。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.6397139430046082,
+        "support": 0.9998468160629272
+      },
+      "margin": 0.3890724182128906,
+      "accepted": true,
+      "seconds": 0.6191230999975232
+    },
+    {
+      "split": "test",
+      "label": "服装",
+      "text": "牛仔裤，腰围72，裤长98，穿过两次。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "服装",
+        "score": 0.7811318039894104,
+        "support": 0.9987789988517761
+      },
+      "margin": 0.6145914047956467,
+      "accepted": true,
+      "seconds": 0.6355382000037935
+    },
+    {
+      "split": "test",
+      "label": "服装",
+      "text": "帆布双肩包，拉链正常，通勤背书都行。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "服装",
+        "score": 0.7395251989364624,
+        "support": 0.9985853433609009
+      },
+      "margin": 0.5352609157562256,
+      "accepted": true,
+      "seconds": 0.6412167000089539
+    },
+    {
+      "split": "test",
+      "label": "服装",
+      "text": "羊毛围巾，米白色，无起球，已干洗。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "服装",
+        "score": 0.45789429545402527,
+        "support": 0.9997854828834534
+      },
+      "margin": 0.0867915153503418,
+      "accepted": false,
+      "seconds": 0.6391988999966998
+    },
+    {
+      "split": "test",
+      "label": "服装",
+      "text": "四十二码休闲鞋，鞋底磨损不多，尺码不合出。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.5849913358688354,
+        "support": 0.9998044371604919
+      },
+      "margin": 0.18050283193588257,
+      "accepted": false,
+      "seconds": 0.6650538000103552
+    },
+    {
+      "split": "test",
+      "label": "家居用品",
+      "text": "宿舍床下收纳箱，有盖带轮子，塑料材质。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.8524525761604309,
+        "support": 0.999876856803894
+      },
+      "margin": 0.7241092622280121,
+      "accepted": true,
+      "seconds": 0.6495529999956489
+    },
+    {
+      "split": "test",
+      "label": "家居用品",
+      "text": "陶瓷饭碗和盘子共六件，搬宿舍不想带走。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.729938268661499,
+        "support": 0.9999089241027832
+      },
+      "margin": 0.5255279242992401,
+      "accepted": true,
+      "seconds": 0.6497796000039671
+    },
+    {
+      "split": "test",
+      "label": "家居用品",
+      "text": "折叠小板凳，承重正常，坐着洗衣服方便。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.86604905128479,
+        "support": 0.9999121427536011
+      },
+      "margin": 0.7964159771800041,
+      "accepted": true,
+      "seconds": 0.6293875999981537
+    },
+    {
+      "split": "test",
+      "label": "家居用品",
+      "text": "遮光窗帘，两片带挂钩，适合宿舍床铺。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.983532190322876,
+        "support": 0.9998292922973633
+      },
+      "margin": 0.9718564609065652,
+      "accepted": true,
+      "seconds": 0.6500857999926666
+    },
+    {
+      "split": "test",
+      "label": "运动器材",
+      "text": "篮球，标准七号球，室外场用过几次。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.7031824588775635,
+        "support": 0.9999279975891113
+      },
+      "margin": 0.4677797853946686,
+      "accepted": true,
+      "seconds": 0.6285171999916201
+    },
+    {
+      "split": "test",
+      "label": "运动器材",
+      "text": "可调节哑铃一对，重量片齐全，宿舍锻炼用。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.37973299622535706,
+        "support": 0.9998836517333984
+      },
+      "margin": 0.07533353567123413,
+      "accepted": false,
+      "seconds": 0.6505843000049936
+    },
+    {
+      "split": "test",
+      "label": "运动器材",
+      "text": "瑜伽垫，厚度六毫米，附收纳绑带。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.8225770592689514,
+        "support": 0.9998887777328491
+      },
+      "margin": 0.6920474767684937,
+      "accepted": true,
+      "seconds": 0.6374109000025783
+    },
+    {
+      "split": "test",
+      "label": "运动器材",
+      "text": "乒乓球拍两只，胶皮没有脱落，附三个球。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.898443341255188,
+        "support": 0.9999204874038696
+      },
+      "margin": 0.8516639396548271,
+      "accepted": true,
+      "seconds": 0.6873055999894859
+    },
+    {
+      "split": "test",
+      "label": "乐器",
+      "text": "二手小提琴，四分之四尺寸，附琴弓。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.5866177678108215,
+        "support": 0.9997615218162537
+      },
+      "margin": 0.35285866260528564,
+      "accepted": true,
+      "seconds": 0.6134272000053898
+    },
+    {
+      "split": "test",
+      "label": "乐器",
+      "text": "竹笛，G调，笛膜已贴好，初学可用。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "乐器",
+        "score": 0.6318928599357605,
+        "support": 0.9998980760574341
+      },
+      "margin": 0.4077570140361786,
+      "accepted": true,
+      "seconds": 0.7138288999994984
+    },
+    {
+      "split": "test",
+      "label": "乐器",
+      "text": "电子琴61键，所有琴键发声正常，有电源。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.8773337006568909,
+        "support": 0.9997872710227966
+      },
+      "margin": 0.8089142292737961,
+      "accepted": true,
+      "seconds": 0.6282872000010684
+    },
+    {
+      "split": "test",
+      "label": "乐器",
+      "text": "尤克里里，四根弦，换了新弦，音准正常。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.4538135826587677,
+        "support": 0.9549024701118469
+      },
+      "margin": 0.3084890693426132,
+      "accepted": false,
+      "seconds": 0.6704027999949176
+    },
+    {
+      "split": "test",
+      "label": "工具",
+      "text": "活动扳手，可调开口，修水龙头用过一次。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "工具",
+        "score": 0.5538069605827332,
+        "support": 0.999891996383667
+      },
+      "margin": 0.17707905173301697,
+      "accepted": false,
+      "seconds": 0.6360375000076601
+    },
+    {
+      "split": "test",
+      "label": "工具",
+      "text": "尖嘴钳和老虎钳组合，绝缘手柄完好。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.40929314494132996,
+        "support": 0.9829475283622742
+      },
+      "margin": 0.09915384650230408,
+      "accepted": false,
+      "seconds": 0.6218746999948053
+    },
+    {
+      "split": "test",
+      "label": "工具",
+      "text": "手电钻，附钻头，用于家具打孔安装。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "工具",
+        "score": 0.4521935284137726,
+        "support": 0.9997537732124329
+      },
+      "margin": 0.17965179681777954,
+      "accepted": false,
+      "seconds": 0.6083471000019927
+    },
+    {
+      "split": "test",
+      "label": "工具",
+      "text": "五米钢卷尺，回弹正常，适合装修测量。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.8753787279129028,
+        "support": 0.9996193647384644
+      },
+      "margin": 0.8016595616936684,
+      "accepted": true,
+      "seconds": 0.6018083000089973
+    },
+    {
+      "split": "test",
+      "label": "玩具",
+      "text": "拼装积木城堡，零件齐全，说明书还在。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "书籍",
+        "score": 0.9646437764167786,
+        "support": 0.9983397722244263
+      },
+      "margin": 0.9476803634315729,
+      "accepted": true,
+      "seconds": 0.7014731999952346
+    },
+    {
+      "split": "test",
+      "label": "玩具",
+      "text": "遥控玩具赛车，遥控器正常，带充电电池。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.618125319480896,
+        "support": 0.9998847246170044
+      },
+      "margin": 0.3318554759025574,
+      "accepted": true,
+      "seconds": 0.6424859999970067
+    },
+    {
+      "split": "test",
+      "label": "玩具",
+      "text": "一千片风景拼图，拼过一次，装回盒子了。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "艺术品",
+        "score": 0.7575652599334717,
+        "support": 0.996747612953186
+      },
+      "margin": 0.6134995520114899,
+      "accepted": true,
+      "seconds": 0.7670393000007607
+    },
+    {
+      "split": "test",
+      "label": "玩具",
+      "text": "动漫角色塑料模型，可动关节，盒子齐全。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.9227968454360962,
+        "support": 0.999907374382019
+      },
+      "margin": 0.8666167818009853,
+      "accepted": true,
+      "seconds": 0.6392885000095703
+    },
+    {
+      "split": "test",
+      "label": "艺术品",
+      "text": "手写书法作品，宣纸装裱，适合挂墙欣赏。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "艺术品",
+        "score": 0.8853343725204468,
+        "support": 0.9998630285263062
+      },
+      "margin": 0.776204414665699,
+      "accepted": true,
+      "seconds": 0.6526646999991499
+    },
+    {
+      "split": "test",
+      "label": "艺术品",
+      "text": "原创水彩画，描绘海边日落，非印刷复制品。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.504267692565918,
+        "support": 0.981762170791626
+      },
+      "margin": 0.03725463151931763,
+      "accepted": false,
+      "seconds": 0.6844086999917636
+    },
+    {
+      "split": "test",
+      "label": "艺术品",
+      "text": "陶艺雕塑作品，手工捏制的人物形象。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "艺术品",
+        "score": 0.817115068435669,
+        "support": 0.9994232654571533
+      },
+      "margin": 0.6637023687362671,
+      "accepted": true,
+      "seconds": 0.6190389000112191
+    },
+    {
+      "split": "test",
+      "label": "艺术品",
+      "text": "版画作品，作者签名，编号限量印制。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.7884438633918762,
+        "support": 0.9875085949897766
+      },
+      "margin": 0.6044098734855652,
+      "accepted": false,
+      "seconds": 0.6354250000003958
+    },
+    {
+      "split": "test",
+      "label": "其他",
+      "text": "一盆多肉植物，长势很好，毕业带不走。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.719727635383606,
+        "support": 0.9976245760917664
+      },
+      "margin": 0.5875798463821411,
+      "accepted": false,
+      "seconds": 0.6316765000083251
+    },
+    {
+      "split": "test",
+      "label": "其他",
+      "text": "向日葵种子，未拆封，适合阳台种植。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.8195450901985168,
+        "support": 0.997907280921936
+      },
+      "margin": 0.7304330840706825,
+      "accepted": false,
+      "seconds": 0.6092541000107303
+    },
+    {
+      "split": "test",
+      "label": "其他",
+      "text": "绿萝水培小苗，已经长根，连玻璃瓶一起出。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "其他",
+        "score": 0.4181790053844452,
+        "support": 0.9355172514915466
+      },
+      "margin": 0.16583147644996643,
+      "accepted": false,
+      "seconds": 0.6783867000049213
+    },
+    {
+      "split": "test",
+      "label": "其他",
+      "text": "园艺营养土，剩余两公斤，密封保存。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.8405235409736633,
+        "support": 0.99516761302948
+      },
+      "margin": 0.774866446852684,
+      "accepted": false,
+      "seconds": 0.6334120999963488
+    },
+    {
+      "split": "test",
+      "label": null,
+      "text": "有人知道今天食堂几点关门吗？",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.6129610538482666,
+        "support": 0.9998900890350342
+      },
+      "margin": 0.32727256417274475,
+      "accepted": false,
+      "seconds": 0.6651753000041936
+    },
+    {
+      "split": "test",
+      "label": null,
+      "text": "周末招聘兼职发传单，每小时结算。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.565521240234375,
+        "support": 0.9998103976249695
+      },
+      "margin": 0.13787657022476196,
+      "accepted": false,
+      "seconds": 0.7516267000028165
+    },
+    {
+      "split": "test",
+      "label": null,
+      "text": "很不错的东西，八成新，想要的来。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.5215636491775513,
+        "support": 0.9903332591056824
+      },
+      "margin": 0.33504249155521393,
+      "accepted": false,
+      "seconds": 0.7434787999955006
+    },
+    {
+      "split": "test",
+      "label": null,
+      "text": "寻找能够教我游泳的同学，有偿。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.316384881734848,
+        "support": 0.9998121857643127
+      },
+      "margin": 0.030350595712661743,
+      "accepted": false,
+      "seconds": 0.8067294999927981
+    },
+    {
+      "split": "test",
+      "label": null,
+      "text": "运动球拍和小说整箱打包，不能拆卖。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.40531301498413086,
+        "support": 0.9998847246170044
+      },
+      "margin": 0.16231462359428406,
+      "accepted": false,
+      "seconds": 0.8541753000026802
+    },
+    {
+      "split": "test",
+      "label": null,
+      "text": "你好，今天心情很好，随便聊聊。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.9748227596282959,
+        "support": 0.9998769760131836
+      },
+      "margin": 0.9636071436107159,
+      "accepted": false,
+      "seconds": 0.6360158000024967
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "warning": "Agent-authored synthetic smoke samples; not real-user or independently human-labeled evaluation.",
+  "model": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+  "revision": "8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+  "split": "test",
+  "input_type": "title",
+  "template": "这段文字描述的是{label}。",
+  "thresholds": {
+    "CLASSIFICATION_MIN_MARGIN": 0.25,
+    "CLASSIFICATION_MIN_SCORE": 0.45,
+    "CLASSIFICATION_MIN_SUPPORT": 0.7
+  },
+  "environment": {
+    "python": "3.12.10",
+    "cpu": "Intel64 Family 6 Model 204 Stepping 2, GenuineIntel",
+    "threads": 2,
+    "ram_gb": 31.51613998413086
+  },
+  "load_seconds": 6.118231700005708,
+  "rss_mb": 1638.859375,
+  "median_seconds": 0.5026738999949885,
+  "p95_seconds": 0.5565433999872766,
+  "top1_accuracy_classifiable": 0.4,
+  "macro_f1_classifiable": 0.39714285714285713,
+  "recommendation_coverage_all": 0.5833333333333334,
+  "accepted_accuracy": 0.5,
+  "per_class": {
+    "电子产品": {
+      "support": 2,
+      "precision": 0.4,
+      "recall": 1.0,
+      "f1": 0.5714285714285714
+    },
+    "书籍": {
+      "support": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "服装": {
+      "support": 2,
+      "precision": 0.3333333333333333,
+      "recall": 0.5,
+      "f1": 0.4
+    },
+    "家居用品": {
+      "support": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "运动器材": {
+      "support": 2,
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1": 0.3333333333333333
+    },
+    "乐器": {
+      "support": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "工具": {
+      "support": 2,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "玩具": {
+      "support": 2,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "艺术品": {
+      "support": 2,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6666666666666666
+    },
+    "其他": {
+      "support": 2,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "results": [
+    {
+      "title": "二手蓝牙耳机",
+      "label": "电子产品",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.5243720412254333,
+        "support": 0.9997074007987976
+      },
+      "margin": 0.22019916772842407,
+      "accepted": false,
+      "seconds": 0.5310258000099566
+    },
+    {
+      "title": "华为平板电脑 128G",
+      "label": "电子产品",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.9314538240432739,
+        "support": 0.9999303817749023
+      },
+      "margin": 0.8914561159908772,
+      "accepted": true,
+      "seconds": 0.47373380001226906
+    },
+    {
+      "title": "高等数学教材上下册",
+      "label": "书籍",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "书籍",
+        "score": 0.8638952970504761,
+        "support": 0.9977966547012329
+      },
+      "margin": 0.7690107971429825,
+      "accepted": true,
+      "seconds": 0.4746700999967288
+    },
+    {
+      "title": "自动铅笔和笔芯",
+      "label": "书籍",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.6504508256912231,
+        "support": 0.9993427395820618
+      },
+      "margin": 0.5323610901832581,
+      "accepted": true,
+      "seconds": 0.48497279999719467
+    },
+    {
+      "title": "冬季羽绒服 L码",
+      "label": "服装",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "服装",
+        "score": 0.6230459213256836,
+        "support": 0.9973844885826111
+      },
+      "margin": 0.48109956085681915,
+      "accepted": true,
+      "seconds": 0.48314740000932943
+    },
+    {
+      "title": "帆布双肩包",
+      "label": "服装",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.48668569326400757,
+        "support": 0.9996302127838135
+      },
+      "margin": 0.2103857696056366,
+      "accepted": false,
+      "seconds": 0.5391575999965426
+    },
+    {
+      "title": "宿舍床下收纳箱",
+      "label": "家居用品",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.9153867959976196,
+        "support": 0.9998156428337097
+      },
+      "margin": 0.8444056585431099,
+      "accepted": true,
+      "seconds": 0.5363605999882566
+    },
+    {
+      "title": "折叠小板凳",
+      "label": "家居用品",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.30517229437828064,
+        "support": 0.9992947578430176
+      },
+      "margin": 0.09457559883594513,
+      "accepted": false,
+      "seconds": 0.4910216999996919
+    },
+    {
+      "title": "羽毛球拍",
+      "label": "运动器材",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.8136891722679138,
+        "support": 0.999935507774353
+      },
+      "margin": 0.7108976021409035,
+      "accepted": true,
+      "seconds": 0.4738017000054242
+    },
+    {
+      "title": "可调节哑铃一对",
+      "label": "运动器材",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "服装",
+        "score": 0.5498610734939575,
+        "support": 0.9993494153022766
+      },
+      "margin": 0.26696258783340454,
+      "accepted": true,
+      "seconds": 0.5585362999991048
+    },
+    {
+      "title": "六弦民谣吉他",
+      "label": "乐器",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "乐器",
+        "score": 0.7318137884140015,
+        "support": 0.999893307685852
+      },
+      "margin": 0.5620252043008804,
+      "accepted": true,
+      "seconds": 0.5888838000100804
+    },
+    {
+      "title": "电子琴 61键",
+      "label": "乐器",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.7735942006111145,
+        "support": 0.9997397065162659
+      },
+      "margin": 0.6750611737370491,
+      "accepted": true,
+      "seconds": 0.5228828999970574
+    },
+    {
+      "title": "十字螺丝刀套装",
+      "label": "工具",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "服装",
+        "score": 0.7497458457946777,
+        "support": 0.9995076656341553
+      },
+      "margin": 0.6637439578771591,
+      "accepted": true,
+      "seconds": 0.5392862000007881
+    },
+    {
+      "title": "手电钻和钻头",
+      "label": "工具",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.7362291216850281,
+        "support": 0.9998169541358948
+      },
+      "margin": 0.575457975268364,
+      "accepted": true,
+      "seconds": 0.5536689000000479
+    },
+    {
+      "title": "毛绒熊玩偶",
+      "label": "玩具",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.6733343005180359,
+        "support": 0.9960669875144958
+      },
+      "margin": 0.5602729022502899,
+      "accepted": false,
+      "seconds": 0.5386336000083247
+    },
+    {
+      "title": "遥控玩具赛车",
+      "label": "玩具",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.7366547584533691,
+        "support": 0.9998857975006104
+      },
+      "margin": 0.5533521473407745,
+      "accepted": true,
+      "seconds": 0.4633314000093378
+    },
+    {
+      "title": "原创手绘油画作品",
+      "label": "艺术品",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "艺术品",
+        "score": 0.7102169394493103,
+        "support": 0.999457061290741
+      },
+      "margin": 0.467160165309906,
+      "accepted": true,
+      "seconds": 0.4817806000064593
+    },
+    {
+      "title": "装裱书法作品",
+      "label": "艺术品",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.46252164244651794,
+        "support": 0.9466599822044373
+      },
+      "margin": 0.0486169159412384,
+      "accepted": false,
+      "seconds": 0.45270609999715816
+    },
+    {
+      "title": "薄荷盆栽",
+      "label": "其他",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.6154579520225525,
+        "support": 0.997037410736084
+      },
+      "margin": 0.38282743096351624,
+      "accepted": false,
+      "seconds": 0.45688079998944886
+    },
+    {
+      "title": "向日葵种子",
+      "label": "其他",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.39065632224082947,
+        "support": 0.9967346787452698
+      },
+      "margin": 0.013991445302963257,
+      "accepted": false,
+      "seconds": 0.4525119000027189
+    },
+    {
+      "title": "毕业闲置便宜出",
+      "label": null,
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.3982313871383667,
+        "support": 0.9984500408172607
+      },
+      "margin": 0.0040929317474365234,
+      "accepted": false,
+      "seconds": 0.48884270001144614
+    },
+    {
+      "title": "键盘和教材打包出",
+      "label": null,
+      "source": "agent_synthetic",
+      "top": {
+        "category": "书籍",
+        "score": 0.6150634288787842,
+        "support": 0.9998449087142944
+      },
+      "margin": 0.251968115568161,
+      "accepted": true,
+      "seconds": 0.514326099990285
+    },
+    {
+      "title": "求修电脑",
+      "label": null,
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.4466581344604492,
+        "support": 0.9999003410339355
+      },
+      "margin": 0.15275683999061584,
+      "accepted": false,
+      "seconds": 0.5565433999872766
+    },
+    {
+      "title": "今天天气怎么样",
+      "label": null,
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.884019136428833,
+        "support": 0.9998283386230469
+      },
+      "margin": 0.8512673191726208,
+      "accepted": false,
+      "seconds": 0.5324187000078382
+    }
+  ]
+}

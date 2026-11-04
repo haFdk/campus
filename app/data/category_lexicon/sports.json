@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "category": "运动器材",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "sports-001",
+      "term": "篮球",
+      "aliases": []
+    },
+    {
+      "id": "sports-002",
+      "term": "足球",
+      "aliases": []
+    },
+    {
+      "id": "sports-003",
+      "term": "排球",
+      "aliases": []
+    },
+    {
+      "id": "sports-004",
+      "term": "羽毛球",
+      "aliases": []
+    },
+    {
+      "id": "sports-005",
+      "term": "乒乓球",
+      "aliases": []
+    },
+    {
+      "id": "sports-006",
+      "term": "网球",
+      "aliases": []
+    },
+    {
+      "id": "sports-007",
+      "term": "棒球",
+      "aliases": []
+    },
+    {
+      "id": "sports-008",
+      "term": "垒球",
+      "aliases": []
+    },
+    {
+      "id": "sports-009",
+      "term": "橄榄球",
+      "aliases": []
+    },
+    {
+      "id": "sports-010",
+      "term": "手球",
+      "aliases": []
+    },
+    {
+      "id": "sports-011",
+      "term": "羽毛球拍",
+      "aliases": []
+    },
+    {
+      "id": "sports-012",
+      "term": "乒乓球拍",
+      "aliases": [
+        "乒乓拍"
+      ]
+    },
+    {
+      "id": "sports-013",
+      "term": "网球拍",
+      "aliases": []
+    },
+    {
+      "id": "sports-014",
+      "term": "壁球拍",
+      "aliases": []
+    },
+    {
+      "id": "sports-015",
+      "term": "棒球棒",
+      "aliases": []
+    },
+    {
+      "id": "sports-016",
+      "term": "棒球手套",
+      "aliases": []
+    },
+    {
+      "id": "sports-017",
+      "term": "羽毛球网",
+      "aliases": []
+    },
+    {
+      "id": "sports-018",
+      "term": "乒乓球网",
+      "aliases": []
+    },
+    {
+      "id": "sports-019",
+      "term": "篮球打气筒",
+      "aliases": []
+    },
+    {
+      "id": "sports-020",
+      "term": "球针",
+      "aliases": []
+    },
+    {
+      "id": "sports-021",
+      "term": "跳绳",
+      "aliases": []
+    },
+    {
+      "id": "sports-022",
+      "term": "瑜伽垫",
+      "aliases": []
+    },
+    {
+      "id": "sports-023",
+      "term": "瑜伽砖",
+      "aliases": []
+    },
+    {
+      "id": "sports-024",
+      "term": "瑜伽轮",
+      "aliases": []
+    },
+    {
+      "id": "sports-025",
+      "term": "瑜伽伸展带",
+      "aliases": []
+    },
+    {
+      "id": "sports-026",
+      "term": "普拉提圈",
+      "aliases": []
+    },
+    {
+      "id": "sports-027",
+      "term": "健身球",
+      "aliases": []
+    },
+    {
+      "id": "sports-028",
+      "term": "波速球",
+      "aliases": []
+    },
+    {
+      "id": "sports-029",
+      "term": "平衡垫",
+      "aliases": []
+    },
+    {
+      "id": "sports-030",
+      "term": "平衡板",
+      "aliases": []
+    },
+    {
+      "id": "sports-031",
+      "term": "哑铃",
+      "aliases": []
+    },
+    {
+      "id": "sports-032",
+      "term": "杠铃",
+      "aliases": []
+    },
+    {
+      "id": "sports-033",
+      "term": "杠铃片",
+      "aliases": []
+    },
+    {
+      "id": "sports-034",
+      "term": "壶铃",
+      "aliases": []
+    },
+    {
+      "id": "sports-035",
+      "term": "弹力带",
+      "aliases": []
+    },
+    {
+      "id": "sports-036",
+      "term": "拉力器",
+      "aliases": []
+    },
+    {
+      "id": "sports-037",
+      "term": "握力器",
+      "aliases": []
+    },
+    {
+      "id": "sports-038",
+      "term": "臂力器",
+      "aliases": []
+    },
+    {
+      "id": "sports-039",
+      "term": "俯卧撑支架",
+      "aliases": []
+    },
+    {
+      "id": "sports-040",
+      "term": "健腹轮",
+      "aliases": []
+    },
+    {
+      "id": "sports-041",
+      "term": "引体向上杆",
+      "aliases": []
+    },
+    {
+      "id": "sports-042",
+      "term": "仰卧起坐板",
+      "aliases": []
+    },
+    {
+      "id": "sports-043",
+      "term": "健身凳",
+      "aliases": []
+    },
+    {
+      "id": "sports-044",
+      "term": "踏步机",
+      "aliases": []
+    },
+    {
+      "id": "sports-045",
+      "term": "划船机",
+      "aliases": []
+    },
+    {
+      "id": "sports-046",
+      "term": "动感单车",
+      "aliases": []
+    },
+    {
+      "id": "sports-047",
+      "term": "跑步机",
+      "aliases": []
+    },
+    {
+      "id": "sports-048",
+      "term": "椭圆机",
+      "aliases": []
+    },
+    {
+      "id": "sports-049",
+      "term": "战绳",
+      "aliases": []
+    },
+    {
+      "id": "sports-050",
+      "term": "负重沙袋",
+      "aliases": []
+    },
+    {
+      "id": "sports-051",
+      "term": "拳击手套",
+      "aliases": []
+    },
+    {
+      "id": "sports-052",
+      "term": "拳击沙袋",
+      "aliases": []
+    },
+    {
+      "id": "sports-053",
+      "term": "拳击手靶",
+      "aliases": []
+    },
+    {
+      "id": "sports-054",
+      "term": "拳击绷带",
+      "aliases": []
+    },
+    {
+      "id": "sports-055",
+      "term": "护腕",
+      "aliases": []
+    },
+    {
+      "id": "sports-056",
+      "term": "护膝",
+      "aliases": []
+    },
+    {
+      "id": "sports-057",
+      "term": "护肘",
+      "aliases": []
+    },
+    {
+      "id": "sports-058",
+      "term": "护踝",
+      "aliases": []
+    },
+    {
+      "id": "sports-059",
+      "term": "护胫",
+      "aliases": []
+    },
+    {
+      "id": "sports-060",
+      "term": "运动护齿",
+      "aliases": []
+    },
+    {
+      "id": "sports-061",
+      "term": "举重腰带",
+      "aliases": []
+    },
+    {
+      "id": "sports-062",
+      "term": "健身手套",
+      "aliases": []
+    },
+    {
+      "id": "sports-063",
+      "term": "助力带",
+      "aliases": []
+    },
+    {
+      "id": "sports-064",
+      "term": "泡沫轴",
+      "aliases": []
+    },
+    {
+      "id": "sports-065",
+      "term": "按摩球",
+      "aliases": []
+    },
+    {
+      "id": "sports-066",
+      "term": "筋膜枪",
+      "aliases": []
+    },
+    {
+      "id": "sports-067",
+      "term": "泳镜",
+      "aliases": []
+    },
+    {
+      "id": "sports-068",
+      "term": "泳帽",
+      "aliases": []
+    },
+    {
+      "id": "sports-069",
+      "term": "浮板",
+      "aliases": []
+    },
+    {
+      "id": "sports-070",
+      "term": "浮力棒",
+      "aliases": []
+    },
+    {
+      "id": "sports-071",
+      "term": "脚蹼",
+      "aliases": []
+    },
+    {
+      "id": "sports-072",
+      "term": "呼吸管",
+      "aliases": []
+    },
+    {
+      "id": "sports-073",
+      "term": "潜水面镜",
+      "aliases": []
+    },
+    {
+      "id": "sports-074",
+      "term": "救生衣",
+      "aliases": []
+    },
+    {
+      "id": "sports-075",
+      "term": "滑板",
+      "aliases": []
+    },
+    {
+      "id": "sports-076",
+      "term": "长板",
+      "aliases": []
+    },
+    {
+      "id": "sports-077",
+      "term": "轮滑鞋",
+      "aliases": [
+        "溜冰鞋"
+      ]
+    },
+    {
+      "id": "sports-078",
+      "term": "冰刀鞋",
+      "aliases": []
+    },
+    {
+      "id": "sports-079",
+      "term": "滑雪板",
+      "aliases": []
+    },
+    {
+      "id": "sports-080",
+      "term": "滑雪杖",
+      "aliases": []
+    },
+    {
+      "id": "sports-081",
+      "term": "自行车",
+      "aliases": [
+        "单车",
+        "脚踏车"
+      ]
+    },
+    {
+      "id": "sports-082",
+      "term": "山地车",
+      "aliases": []
+    },
+    {
+      "id": "sports-083",
+      "term": "公路车",
+      "aliases": []
+    },
+    {
+      "id": "sports-084",
+      "term": "折叠自行车",
+      "aliases": []
+    },
+    {
+      "id": "sports-085",
+      "term": "骑行头盔",
+      "aliases": []
+    },
+    {
+      "id": "sports-086",
+      "term": "骑行手套",
+      "aliases": []
+    },
+    {
+      "id": "sports-087",
+      "term": "自行车码表",
+      "aliases": []
+    },
+    {
+      "id": "sports-088",
+      "term": "自行车打气筒",
+      "aliases": []
+    },
+    {
+      "id": "sports-089",
+      "term": "骑行水壶架",
+      "aliases": []
+    },
+    {
+      "id": "sports-090",
+      "term": "自行车车灯",
+      "aliases": []
+    },
+    {
+      "id": "sports-091",
+      "term": "帐篷",
+      "aliases": []
+    },
+    {
+      "id": "sports-092",
+      "term": "睡袋",
+      "aliases": []
+    },
+    {
+      "id": "sports-093",
+      "term": "防潮垫",
+      "aliases": []
+    },
+    {
+      "id": "sports-094",
+      "term": "露营垫",
+      "aliases": []
+    },
+    {
+      "id": "sports-095",
+      "term": "登山杖",
+      "aliases": []
+    },
+    {
+      "id": "sports-096",
+      "term": "登山绳",
+      "aliases": []
+    },
+    {
+      "id": "sports-097",
+      "term": "安全锁扣",
+      "aliases": []
+    },
+    {
+      "id": "sports-098",
+      "term": "指南针",
+      "aliases": []
+    },
+    {
+      "id": "sports-099",
+      "term": "飞盘",
+      "aliases": []
+    },
+    {
+      "id": "sports-100",
+      "term": "钓鱼竿",
+      "aliases": []
+    }
+  ]
+}

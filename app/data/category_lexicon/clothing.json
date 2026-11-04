@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "category": "服装",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "clothing-001",
+      "term": "T恤",
+      "aliases": [
+        "短袖t恤",
+        "体恤"
+      ]
+    },
+    {
+      "id": "clothing-002",
+      "term": "衬衫",
+      "aliases": []
+    },
+    {
+      "id": "clothing-003",
+      "term": "卫衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-004",
+      "term": "连帽衫",
+      "aliases": []
+    },
+    {
+      "id": "clothing-005",
+      "term": "毛衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-006",
+      "term": "针织衫",
+      "aliases": []
+    },
+    {
+      "id": "clothing-007",
+      "term": "开衫",
+      "aliases": []
+    },
+    {
+      "id": "clothing-008",
+      "term": "背心",
+      "aliases": []
+    },
+    {
+      "id": "clothing-009",
+      "term": "吊带上衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-010",
+      "term": "Polo衫",
+      "aliases": []
+    },
+    {
+      "id": "clothing-011",
+      "term": "马甲",
+      "aliases": []
+    },
+    {
+      "id": "clothing-012",
+      "term": "夹克",
+      "aliases": []
+    },
+    {
+      "id": "clothing-013",
+      "term": "牛仔外套",
+      "aliases": []
+    },
+    {
+      "id": "clothing-014",
+      "term": "棒球服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-015",
+      "term": "风衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-016",
+      "term": "大衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-017",
+      "term": "羽绒服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-018",
+      "term": "棉服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-019",
+      "term": "冲锋衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-020",
+      "term": "皮衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-021",
+      "term": "西装",
+      "aliases": []
+    },
+    {
+      "id": "clothing-022",
+      "term": "西装外套",
+      "aliases": []
+    },
+    {
+      "id": "clothing-023",
+      "term": "正装衬衫",
+      "aliases": []
+    },
+    {
+      "id": "clothing-024",
+      "term": "职业套装",
+      "aliases": []
+    },
+    {
+      "id": "clothing-025",
+      "term": "礼服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-026",
+      "term": "连衣裙",
+      "aliases": []
+    },
+    {
+      "id": "clothing-027",
+      "term": "半身裙",
+      "aliases": []
+    },
+    {
+      "id": "clothing-028",
+      "term": "百褶裙",
+      "aliases": []
+    },
+    {
+      "id": "clothing-029",
+      "term": "牛仔裙",
+      "aliases": []
+    },
+    {
+      "id": "clothing-030",
+      "term": "旗袍",
+      "aliases": []
+    },
+    {
+      "id": "clothing-031",
+      "term": "汉服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-032",
+      "term": "演出服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-033",
+      "term": "学士服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-034",
+      "term": "校服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-035",
+      "term": "运动套装",
+      "aliases": []
+    },
+    {
+      "id": "clothing-036",
+      "term": "睡衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-037",
+      "term": "家居服",
+      "aliases": []
+    },
+    {
+      "id": "clothing-038",
+      "term": "保暖衣",
+      "aliases": []
+    },
+    {
+      "id": "clothing-039",
+      "term": "打底衫",
+      "aliases": []
+    },
+    {
+      "id": "clothing-040",
+      "term": "秋裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-041",
+      "term": "牛仔裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-042",
+      "term": "休闲裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-043",
+      "term": "西裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-044",
+      "term": "运动裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-045",
+      "term": "卫裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-046",
+      "term": "工装裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-047",
+      "term": "短裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-048",
+      "term": "七分裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-049",
+      "term": "阔腿裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-050",
+      "term": "打底裤",
+      "aliases": []
+    },
+    {
+      "id": "clothing-051",
+      "term": "运动鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-052",
+      "term": "跑鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-053",
+      "term": "篮球鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-054",
+      "term": "足球鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-055",
+      "term": "羽毛球鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-056",
+      "term": "网球鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-057",
+      "term": "帆布鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-058",
+      "term": "板鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-059",
+      "term": "休闲鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-060",
+      "term": "皮鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-061",
+      "term": "乐福鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-062",
+      "term": "高跟鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-063",
+      "term": "凉鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-064",
+      "term": "拖鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-065",
+      "term": "洞洞鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-066",
+      "term": "短靴",
+      "aliases": []
+    },
+    {
+      "id": "clothing-067",
+      "term": "长靴",
+      "aliases": []
+    },
+    {
+      "id": "clothing-068",
+      "term": "雪地靴",
+      "aliases": []
+    },
+    {
+      "id": "clothing-069",
+      "term": "登山鞋",
+      "aliases": []
+    },
+    {
+      "id": "clothing-070",
+      "term": "雨靴",
+      "aliases": []
+    },
+    {
+      "id": "clothing-071",
+      "term": "棒球帽",
+      "aliases": []
+    },
+    {
+      "id": "clothing-072",
+      "term": "渔夫帽",
+      "aliases": []
+    },
+    {
+      "id": "clothing-073",
+      "term": "针织帽",
+      "aliases": []
+    },
+    {
+      "id": "clothing-074",
+      "term": "贝雷帽",
+      "aliases": []
+    },
+    {
+      "id": "clothing-075",
+      "term": "遮阳帽",
+      "aliases": []
+    },
+    {
+      "id": "clothing-076",
+      "term": "围巾",
+      "aliases": []
+    },
+    {
+      "id": "clothing-077",
+      "term": "丝巾",
+      "aliases": []
+    },
+    {
+      "id": "clothing-078",
+      "term": "披肩",
+      "aliases": []
+    },
+    {
+      "id": "clothing-079",
+      "term": "手套",
+      "aliases": []
+    },
+    {
+      "id": "clothing-080",
+      "term": "耳罩",
+      "aliases": []
+    },
+    {
+      "id": "clothing-081",
+      "term": "腰带",
+      "aliases": []
+    },
+    {
+      "id": "clothing-082",
+      "term": "领带",
+      "aliases": []
+    },
+    {
+      "id": "clothing-083",
+      "term": "领结",
+      "aliases": []
+    },
+    {
+      "id": "clothing-084",
+      "term": "袜子",
+      "aliases": []
+    },
+    {
+      "id": "clothing-085",
+      "term": "运动袜",
+      "aliases": []
+    },
+    {
+      "id": "clothing-086",
+      "term": "双肩包",
+      "aliases": [
+        "背包"
+      ]
+    },
+    {
+      "id": "clothing-087",
+      "term": "书包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-088",
+      "term": "单肩包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-089",
+      "term": "斜挎包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-090",
+      "term": "帆布包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-091",
+      "term": "手提包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-092",
+      "term": "腰包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-093",
+      "term": "胸包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-094",
+      "term": "旅行包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-095",
+      "term": "行李箱",
+      "aliases": []
+    },
+    {
+      "id": "clothing-096",
+      "term": "钱包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-097",
+      "term": "卡包",
+      "aliases": []
+    },
+    {
+      "id": "clothing-098",
+      "term": "胸针",
+      "aliases": []
+    },
+    {
+      "id": "clothing-099",
+      "term": "发夹",
+      "aliases": []
+    },
+    {
+      "id": "clothing-100",
+      "term": "发箍",
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+@import './variables.scss';
+
+:root {
+  --accent: #facc15;
+  --el-color-primary: #171717;
+  --el-color-primary-light-3: #555555;
+  --el-color-primary-light-5: #858585;
+  --el-color-primary-light-7: #d4d4d0;
+  --el-color-primary-light-8: #fff4bd;
+  --el-color-primary-light-9: #fff9df;
+  --el-color-primary-dark-2: #000000;
+  --el-text-color-primary: #171717;
+  --el-text-color-regular: #404040;
+  --el-text-color-secondary: #666666;
+  --el-border-radius-base: 6px;
+  --el-border-color: #bdbdb8;
+  --ink: #171717;
+  --ink-soft: #333333;
+  --coral: #171717;
+  --lime: #facc15;
+  --cream: #f7f7f5;
+  --paper: #ffffff;
+  --muted: #666666;
+  --line: rgba(23, 23, 23, 0.14);
+  --shadow: 0 18px 50px rgba(23, 23, 23, 0.09);
+  --font-display: "Avenir Next", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-body: Inter, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--cream);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  color: var(--ink);
+  background: var(--cream);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: var(--ink);
+  background: var(--accent);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background: rgba(23, 23, 23, 0.28);
+  background-clip: padding-box;
+}
+
+.el-button--primary, .el-button--primary.is-plain {
+  --el-button-text-color: var(--ink);
+  --el-button-bg-color: var(--accent);
+  --el-button-border-color: var(--ink);
+  --el-button-hover-text-color: var(--ink);
+  --el-button-hover-bg-color: #ffe052;
+  --el-button-hover-border-color: var(--ink);
+  --el-button-active-text-color: var(--ink);
+  --el-button-active-bg-color: #e5b900;
+  --el-button-active-border-color: var(--ink);
+  --el-button-disabled-text-color: #777366;
+  --el-button-disabled-bg-color: #f4edcf;
+  --el-button-disabled-border-color: #d9d4c0;
+}
+.el-button { border-radius: 6px; font-weight: 600; }
+.el-button--primary:not(.is-text):not(.is-link):not(.is-disabled) {
+  box-shadow: 2px 2px 0 var(--ink);
+}
+.el-button--primary.is-text, .el-button--primary.is-link {
+  --el-button-bg-color: transparent;
+  --el-button-border-color: transparent;
+}
+:where(button, a, input, textarea):focus-visible {
+  outline: 2px solid var(--ink); outline-offset: 3px;
+}
+.el-radio-button__original-radio:checked + .el-radio-button__inner,
+.el-pagination.is-background .el-pager li.is-active {
+  color: var(--ink); background: var(--accent); border-color: var(--ink);
+}
+.el-tabs__active-bar { background: var(--accent); height: 3px; }
+.el-avatar { --el-avatar-bg-color: #171717; }
+.el-dialog, .el-message-box { border: 1px solid var(--ink); }
+
+.el-card {
+  --el-card-border-color: var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 3px 3px 0 #deded8;
+}
+
+.el-dialog {
+  border-radius: 8px;
+}
+
+.el-input__wrapper,
+.el-select__wrapper,
+.el-textarea__inner {
+  border-radius: 6px;
+}
+
+.el-pagination {
+  --el-pagination-button-bg-color: transparent;
+}
+
+.page-header {
+  margin-bottom: 24px !important;
+}
+
+.page-header h1,
+.page-title {
+  color: var(--ink) !important;
+  font-family: var(--font-display);
+  letter-spacing: -0.03em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loading-container {
+  min-height: 220px;
+  display: grid;
+  place-items: center;
+}
+
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.el-dialog { max-width: calc(100vw - 24px); }
+@media (max-width: 540px) {
+  .el-dialog { margin-top: 4vh; }
+  .el-pagination { flex-wrap: wrap; row-gap: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

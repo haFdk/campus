@@ -1,0 +1,515 @@
+{
+  "version": 1,
+  "category": "艺术品",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "art-001",
+      "term": "油画作品",
+      "aliases": [
+        "油画"
+      ]
+    },
+    {
+      "id": "art-002",
+      "term": "水彩画作品",
+      "aliases": [
+        "水彩画"
+      ]
+    },
+    {
+      "id": "art-003",
+      "term": "水粉画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-004",
+      "term": "丙烯画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-005",
+      "term": "素描作品",
+      "aliases": []
+    },
+    {
+      "id": "art-006",
+      "term": "速写作品",
+      "aliases": []
+    },
+    {
+      "id": "art-007",
+      "term": "彩铅画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-008",
+      "term": "粉彩画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-009",
+      "term": "钢笔画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-010",
+      "term": "炭笔画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-011",
+      "term": "国画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-012",
+      "term": "山水画",
+      "aliases": []
+    },
+    {
+      "id": "art-013",
+      "term": "花鸟画",
+      "aliases": []
+    },
+    {
+      "id": "art-014",
+      "term": "人物画",
+      "aliases": []
+    },
+    {
+      "id": "art-015",
+      "term": "工笔画",
+      "aliases": []
+    },
+    {
+      "id": "art-016",
+      "term": "写意画",
+      "aliases": []
+    },
+    {
+      "id": "art-017",
+      "term": "水墨画",
+      "aliases": []
+    },
+    {
+      "id": "art-018",
+      "term": "白描作品",
+      "aliases": []
+    },
+    {
+      "id": "art-019",
+      "term": "岩彩画",
+      "aliases": []
+    },
+    {
+      "id": "art-020",
+      "term": "漆画",
+      "aliases": []
+    },
+    {
+      "id": "art-021",
+      "term": "木刻版画",
+      "aliases": []
+    },
+    {
+      "id": "art-022",
+      "term": "铜版画",
+      "aliases": []
+    },
+    {
+      "id": "art-023",
+      "term": "石版画",
+      "aliases": []
+    },
+    {
+      "id": "art-024",
+      "term": "丝网版画",
+      "aliases": []
+    },
+    {
+      "id": "art-025",
+      "term": "数字艺术微喷画",
+      "aliases": []
+    },
+    {
+      "id": "art-026",
+      "term": "摄影艺术作品",
+      "aliases": []
+    },
+    {
+      "id": "art-027",
+      "term": "装饰画",
+      "aliases": []
+    },
+    {
+      "id": "art-028",
+      "term": "艺术海报",
+      "aliases": []
+    },
+    {
+      "id": "art-029",
+      "term": "拼贴画",
+      "aliases": []
+    },
+    {
+      "id": "art-030",
+      "term": "综合材料绘画",
+      "aliases": []
+    },
+    {
+      "id": "art-031",
+      "term": "楷书作品",
+      "aliases": []
+    },
+    {
+      "id": "art-032",
+      "term": "行书作品",
+      "aliases": []
+    },
+    {
+      "id": "art-033",
+      "term": "草书作品",
+      "aliases": []
+    },
+    {
+      "id": "art-034",
+      "term": "隶书作品",
+      "aliases": []
+    },
+    {
+      "id": "art-035",
+      "term": "篆书作品",
+      "aliases": []
+    },
+    {
+      "id": "art-036",
+      "term": "硬笔书法作品",
+      "aliases": []
+    },
+    {
+      "id": "art-037",
+      "term": "书法条幅",
+      "aliases": []
+    },
+    {
+      "id": "art-038",
+      "term": "书法斗方",
+      "aliases": []
+    },
+    {
+      "id": "art-039",
+      "term": "书法扇面",
+      "aliases": []
+    },
+    {
+      "id": "art-040",
+      "term": "手写艺术对联",
+      "aliases": []
+    },
+    {
+      "id": "art-041",
+      "term": "篆刻作品",
+      "aliases": []
+    },
+    {
+      "id": "art-042",
+      "term": "印蜕作品",
+      "aliases": []
+    },
+    {
+      "id": "art-043",
+      "term": "刻字艺术摆件",
+      "aliases": []
+    },
+    {
+      "id": "art-044",
+      "term": "剪纸作品",
+      "aliases": []
+    },
+    {
+      "id": "art-045",
+      "term": "皮影作品",
+      "aliases": []
+    },
+    {
+      "id": "art-046",
+      "term": "烙画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-047",
+      "term": "沙画作品",
+      "aliases": []
+    },
+    {
+      "id": "art-048",
+      "term": "叶脉画",
+      "aliases": []
+    },
+    {
+      "id": "art-049",
+      "term": "羽毛画",
+      "aliases": []
+    },
+    {
+      "id": "art-050",
+      "term": "贝壳画",
+      "aliases": []
+    },
+    {
+      "id": "art-051",
+      "term": "陶艺雕塑",
+      "aliases": []
+    },
+    {
+      "id": "art-052",
+      "term": "陶瓷艺术摆件",
+      "aliases": []
+    },
+    {
+      "id": "art-053",
+      "term": "陶瓷装饰盘",
+      "aliases": []
+    },
+    {
+      "id": "art-054",
+      "term": "陶瓷壁饰",
+      "aliases": []
+    },
+    {
+      "id": "art-055",
+      "term": "手作陶瓷花器",
+      "aliases": []
+    },
+    {
+      "id": "art-056",
+      "term": "泥塑作品",
+      "aliases": []
+    },
+    {
+      "id": "art-057",
+      "term": "软陶艺术摆件",
+      "aliases": []
+    },
+    {
+      "id": "art-058",
+      "term": "树脂雕塑",
+      "aliases": []
+    },
+    {
+      "id": "art-059",
+      "term": "石膏雕塑",
+      "aliases": []
+    },
+    {
+      "id": "art-060",
+      "term": "金属雕塑",
+      "aliases": []
+    },
+    {
+      "id": "art-061",
+      "term": "木雕作品",
+      "aliases": []
+    },
+    {
+      "id": "art-062",
+      "term": "竹雕作品",
+      "aliases": []
+    },
+    {
+      "id": "art-063",
+      "term": "石雕作品",
+      "aliases": []
+    },
+    {
+      "id": "art-064",
+      "term": "砖雕作品",
+      "aliases": []
+    },
+    {
+      "id": "art-065",
+      "term": "根雕作品",
+      "aliases": []
+    },
+    {
+      "id": "art-066",
+      "term": "蛋雕作品",
+      "aliases": []
+    },
+    {
+      "id": "art-067",
+      "term": "葫芦雕刻",
+      "aliases": []
+    },
+    {
+      "id": "art-068",
+      "term": "果核雕刻",
+      "aliases": []
+    },
+    {
+      "id": "art-069",
+      "term": "玻璃艺术摆件",
+      "aliases": []
+    },
+    {
+      "id": "art-070",
+      "term": "琉璃摆件",
+      "aliases": []
+    },
+    {
+      "id": "art-071",
+      "term": "刺绣作品",
+      "aliases": []
+    },
+    {
+      "id": "art-072",
+      "term": "十字绣成品",
+      "aliases": [
+        "十字绣作品"
+      ]
+    },
+    {
+      "id": "art-073",
+      "term": "珠绣作品",
+      "aliases": []
+    },
+    {
+      "id": "art-074",
+      "term": "丝带绣作品",
+      "aliases": []
+    },
+    {
+      "id": "art-075",
+      "term": "缂丝装饰作品",
+      "aliases": []
+    },
+    {
+      "id": "art-076",
+      "term": "织锦壁挂",
+      "aliases": []
+    },
+    {
+      "id": "art-077",
+      "term": "编织壁挂",
+      "aliases": []
+    },
+    {
+      "id": "art-078",
+      "term": "拼布艺术画",
+      "aliases": []
+    },
+    {
+      "id": "art-079",
+      "term": "布艺装饰画",
+      "aliases": []
+    },
+    {
+      "id": "art-080",
+      "term": "毛毡艺术画",
+      "aliases": []
+    },
+    {
+      "id": "art-081",
+      "term": "掐丝珐琅画",
+      "aliases": []
+    },
+    {
+      "id": "art-082",
+      "term": "景泰蓝工艺摆件",
+      "aliases": []
+    },
+    {
+      "id": "art-083",
+      "term": "金属丝编织艺术品",
+      "aliases": []
+    },
+    {
+      "id": "art-084",
+      "term": "铜浮雕",
+      "aliases": []
+    },
+    {
+      "id": "art-085",
+      "term": "木浮雕",
+      "aliases": []
+    },
+    {
+      "id": "art-086",
+      "term": "纸浮雕",
+      "aliases": []
+    },
+    {
+      "id": "art-087",
+      "term": "纸雕灯画",
+      "aliases": []
+    },
+    {
+      "id": "art-088",
+      "term": "衍纸画",
+      "aliases": []
+    },
+    {
+      "id": "art-089",
+      "term": "折纸艺术作品",
+      "aliases": []
+    },
+    {
+      "id": "art-090",
+      "term": "纸浆雕塑",
+      "aliases": []
+    },
+    {
+      "id": "art-091",
+      "term": "马赛克艺术画",
+      "aliases": [
+        "马赛克装饰画"
+      ]
+    },
+    {
+      "id": "art-092",
+      "term": "玻璃彩绘画",
+      "aliases": []
+    },
+    {
+      "id": "art-093",
+      "term": "石头彩绘作品",
+      "aliases": []
+    },
+    {
+      "id": "art-094",
+      "term": "木板彩绘作品",
+      "aliases": []
+    },
+    {
+      "id": "art-095",
+      "term": "手绘装饰扇",
+      "aliases": []
+    },
+    {
+      "id": "art-096",
+      "term": "手绘葫芦",
+      "aliases": []
+    },
+    {
+      "id": "art-097",
+      "term": "干花装饰画",
+      "aliases": []
+    },
+    {
+      "id": "art-098",
+      "term": "植物压花画",
+      "aliases": []
+    },
+    {
+      "id": "art-099",
+      "term": "手作微缩场景",
+      "aliases": []
+    },
+    {
+      "id": "art-100",
+      "term": "原创艺术玩偶",
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "category": "乐器",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "instruments-001",
+      "term": "民谣吉他",
+      "aliases": [
+        "吉他",
+        "木吉他"
+      ]
+    },
+    {
+      "id": "instruments-002",
+      "term": "古典吉他",
+      "aliases": []
+    },
+    {
+      "id": "instruments-003",
+      "term": "电吉他",
+      "aliases": []
+    },
+    {
+      "id": "instruments-004",
+      "term": "电贝斯",
+      "aliases": []
+    },
+    {
+      "id": "instruments-005",
+      "term": "尤克里里",
+      "aliases": [
+        "乌克丽丽"
+      ]
+    },
+    {
+      "id": "instruments-006",
+      "term": "班卓琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-007",
+      "term": "曼陀林",
+      "aliases": []
+    },
+    {
+      "id": "instruments-008",
+      "term": "木贝斯",
+      "aliases": []
+    },
+    {
+      "id": "instruments-009",
+      "term": "旅行吉他",
+      "aliases": []
+    },
+    {
+      "id": "instruments-010",
+      "term": "吉他丽丽",
+      "aliases": []
+    },
+    {
+      "id": "instruments-011",
+      "term": "小提琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-012",
+      "term": "中提琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-013",
+      "term": "大提琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-014",
+      "term": "低音提琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-015",
+      "term": "二胡",
+      "aliases": []
+    },
+    {
+      "id": "instruments-016",
+      "term": "板胡",
+      "aliases": []
+    },
+    {
+      "id": "instruments-017",
+      "term": "高胡",
+      "aliases": []
+    },
+    {
+      "id": "instruments-018",
+      "term": "京胡",
+      "aliases": []
+    },
+    {
+      "id": "instruments-019",
+      "term": "马头琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-020",
+      "term": "三弦",
+      "aliases": []
+    },
+    {
+      "id": "instruments-021",
+      "term": "古筝",
+      "aliases": []
+    },
+    {
+      "id": "instruments-022",
+      "term": "古琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-023",
+      "term": "琵琶",
+      "aliases": []
+    },
+    {
+      "id": "instruments-024",
+      "term": "柳琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-025",
+      "term": "阮",
+      "aliases": []
+    },
+    {
+      "id": "instruments-026",
+      "term": "扬琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-027",
+      "term": "月琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-028",
+      "term": "箜篌",
+      "aliases": []
+    },
+    {
+      "id": "instruments-029",
+      "term": "竖琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-030",
+      "term": "卡林巴琴",
+      "aliases": [
+        "拇指琴"
+      ]
+    },
+    {
+      "id": "instruments-031",
+      "term": "钢琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-032",
+      "term": "电钢琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-033",
+      "term": "电子琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-034",
+      "term": "手卷钢琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-035",
+      "term": "手风琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-036",
+      "term": "口风琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-037",
+      "term": "合成器",
+      "aliases": []
+    },
+    {
+      "id": "instruments-038",
+      "term": "MIDI键盘",
+      "aliases": []
+    },
+    {
+      "id": "instruments-039",
+      "term": "儿童练习键盘琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-040",
+      "term": "电子风琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-041",
+      "term": "竹笛",
+      "aliases": []
+    },
+    {
+      "id": "instruments-042",
+      "term": "箫",
+      "aliases": []
+    },
+    {
+      "id": "instruments-043",
+      "term": "葫芦丝",
+      "aliases": []
+    },
+    {
+      "id": "instruments-044",
+      "term": "巴乌",
+      "aliases": []
+    },
+    {
+      "id": "instruments-045",
+      "term": "陶笛",
+      "aliases": []
+    },
+    {
+      "id": "instruments-046",
+      "term": "埙",
+      "aliases": []
+    },
+    {
+      "id": "instruments-047",
+      "term": "唢呐",
+      "aliases": []
+    },
+    {
+      "id": "instruments-048",
+      "term": "笙",
+      "aliases": []
+    },
+    {
+      "id": "instruments-049",
+      "term": "口琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-050",
+      "term": "竖笛",
+      "aliases": []
+    },
+    {
+      "id": "instruments-051",
+      "term": "长笛",
+      "aliases": []
+    },
+    {
+      "id": "instruments-052",
+      "term": "短笛",
+      "aliases": []
+    },
+    {
+      "id": "instruments-053",
+      "term": "单簧管",
+      "aliases": []
+    },
+    {
+      "id": "instruments-054",
+      "term": "双簧管",
+      "aliases": []
+    },
+    {
+      "id": "instruments-055",
+      "term": "巴松管",
+      "aliases": []
+    },
+    {
+      "id": "instruments-056",
+      "term": "萨克斯",
+      "aliases": []
+    },
+    {
+      "id": "instruments-057",
+      "term": "小号",
+      "aliases": []
+    },
+    {
+      "id": "instruments-058",
+      "term": "长号",
+      "aliases": []
+    },
+    {
+      "id": "instruments-059",
+      "term": "圆号",
+      "aliases": []
+    },
+    {
+      "id": "instruments-060",
+      "term": "大号",
+      "aliases": []
+    },
+    {
+      "id": "instruments-061",
+      "term": "架子鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-062",
+      "term": "电子鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-063",
+      "term": "非洲鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-064",
+      "term": "卡洪鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-065",
+      "term": "邦戈鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-066",
+      "term": "康加鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-067",
+      "term": "手鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-068",
+      "term": "铃鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-069",
+      "term": "钢舌鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-070",
+      "term": "空灵鼓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-071",
+      "term": "木琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-072",
+      "term": "铝板琴",
+      "aliases": []
+    },
+    {
+      "id": "instruments-073",
+      "term": "三角铁",
+      "aliases": []
+    },
+    {
+      "id": "instruments-074",
+      "term": "沙锤",
+      "aliases": []
+    },
+    {
+      "id": "instruments-075",
+      "term": "响板",
+      "aliases": []
+    },
+    {
+      "id": "instruments-076",
+      "term": "碰铃",
+      "aliases": []
+    },
+    {
+      "id": "instruments-077",
+      "term": "鼓棒",
+      "aliases": []
+    },
+    {
+      "id": "instruments-078",
+      "term": "鼓刷",
+      "aliases": []
+    },
+    {
+      "id": "instruments-079",
+      "term": "哑鼓垫",
+      "aliases": []
+    },
+    {
+      "id": "instruments-080",
+      "term": "节拍器",
+      "aliases": []
+    },
+    {
+      "id": "instruments-081",
+      "term": "调音器",
+      "aliases": []
+    },
+    {
+      "id": "instruments-082",
+      "term": "吉他变调夹",
+      "aliases": [
+        "变调夹"
+      ]
+    },
+    {
+      "id": "instruments-083",
+      "term": "吉他拨片",
+      "aliases": []
+    },
+    {
+      "id": "instruments-084",
+      "term": "吉他琴弦",
+      "aliases": []
+    },
+    {
+      "id": "instruments-085",
+      "term": "贝斯琴弦",
+      "aliases": []
+    },
+    {
+      "id": "instruments-086",
+      "term": "小提琴琴弦",
+      "aliases": []
+    },
+    {
+      "id": "instruments-087",
+      "term": "古筝琴弦",
+      "aliases": []
+    },
+    {
+      "id": "instruments-088",
+      "term": "二胡琴弦",
+      "aliases": []
+    },
+    {
+      "id": "instruments-089",
+      "term": "弓弦乐器松香",
+      "aliases": []
+    },
+    {
+      "id": "instruments-090",
+      "term": "小提琴弓",
+      "aliases": []
+    },
+    {
+      "id": "instruments-091",
+      "term": "吉他背带",
+      "aliases": []
+    },
+    {
+      "id": "instruments-092",
+      "term": "吉他琴包",
+      "aliases": []
+    },
+    {
+      "id": "instruments-093",
+      "term": "乐器硬盒",
+      "aliases": []
+    },
+    {
+      "id": "instruments-094",
+      "term": "乐谱架",
+      "aliases": [
+        "谱架"
+      ]
+    },
+    {
+      "id": "instruments-095",
+      "term": "乐器支架",
+      "aliases": []
+    },
+    {
+      "id": "instruments-096",
+      "term": "钢琴踏板",
+      "aliases": []
+    },
+    {
+      "id": "instruments-097",
+      "term": "吉他效果器",
+      "aliases": []
+    },
+    {
+      "id": "instruments-098",
+      "term": "吉他音箱",
+      "aliases": []
+    },
+    {
+      "id": "instruments-099",
+      "term": "萨克斯哨片",
+      "aliases": []
+    },
+    {
+      "id": "instruments-100",
+      "term": "萨克斯笛头",
+      "aliases": []
+    }
+  ]
+}

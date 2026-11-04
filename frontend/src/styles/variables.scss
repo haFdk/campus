@@ -1,0 +1,92 @@
+// 主色调 - 现代化配色方案
+$primary-color: #171717;
+$primary-light: #facc15;
+$primary-dark: #000000;
+$success-color: #10b981;
+$warning-color: #f59e0b;
+$danger-color: #ef4444;
+$info-color: #6b7280;
+
+// 渐变色
+$gradient-primary: linear-gradient(135deg, #171717 0%, #333333 100%);
+$gradient-success: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+$gradient-warning: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+$gradient-hero: linear-gradient(135deg, #171717 0%, #333333 100%);
+$gradient-card: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+
+// Element Plus 兼容变量
+$color-primary: #171717;
+$color-primary-light: #fff4bd;
+$color-success: #10b981;
+$color-warning: #f59e0b;
+$color-danger: #ef4444;
+$color-info: #6b7280;
+
+// 文本颜色
+$text-color-primary: #171717;
+$text-color-regular: #404040;
+$text-color-secondary: #666666;
+$text-color-placeholder: #C0C4CC;
+
+// 边框颜色
+$border-color: rgba(23, 23, 23, 0.18);
+$border-color-light: #E4E7ED;
+$border-color-lighter: #EBEEF5;
+$border-color-extra-light: #F2F6FC;
+
+// 背景颜色
+$bg-color: #f7f7f5;
+$bg-color-page: #f7f7f5;
+$bg-color-overlay: rgba(255, 255, 255, 0.95);
+$bg-color-light: #ffffff;
+$bg-color-dark: #1e293b;
+$bg-color-glass: rgba(255, 255, 255, 0.25);
+
+// 字体
+$font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+$font-size-extra-large: 20px;
+$font-size-large: 18px;
+$font-size-medium: 16px;
+$font-size-base: 14px;
+$font-size-small: 13px;
+$font-size-extra-small: 12px;
+
+// 间距
+$spacing-base: 16px;
+$spacing-small: 8px;
+$spacing-large: 24px;
+$spacing-extra-large: 32px;
+
+// 圆角
+$border-radius: 8px;
+$border-radius-small: 4px;
+$border-radius-large: 12px;
+$border-radius-base: 8px;
+
+// 阴影 - 现代化阴影系统
+$box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$box-shadow-light: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$box-shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$box-shadow-dark: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$box-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$box-shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+$box-shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3);
+
+// 断点
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1920px;
+
+// 过渡动画
+$transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+$transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+// 新增设计元素
+$backdrop-blur: blur(10px);
+$glass-border: 1px solid rgba(255, 255, 255, 0.2);
+$hover-scale: 1.02;
+$active-scale: 0.98;

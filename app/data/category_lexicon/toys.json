@@ -1,0 +1,517 @@
+{
+  "version": 1,
+  "category": "玩具",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "toys-001",
+      "term": "拼插积木",
+      "aliases": [
+        "积木"
+      ]
+    },
+    {
+      "id": "toys-002",
+      "term": "磁力积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-003",
+      "term": "木质积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-004",
+      "term": "颗粒积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-005",
+      "term": "齿轮积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-006",
+      "term": "管道积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-007",
+      "term": "机械拼装积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-008",
+      "term": "建筑积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-009",
+      "term": "轨道积木",
+      "aliases": []
+    },
+    {
+      "id": "toys-010",
+      "term": "编程机器人玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-011",
+      "term": "拼图",
+      "aliases": []
+    },
+    {
+      "id": "toys-012",
+      "term": "立体拼图",
+      "aliases": []
+    },
+    {
+      "id": "toys-013",
+      "term": "魔方",
+      "aliases": []
+    },
+    {
+      "id": "toys-014",
+      "term": "异形魔方",
+      "aliases": []
+    },
+    {
+      "id": "toys-015",
+      "term": "九连环",
+      "aliases": []
+    },
+    {
+      "id": "toys-016",
+      "term": "华容道",
+      "aliases": []
+    },
+    {
+      "id": "toys-017",
+      "term": "孔明锁",
+      "aliases": []
+    },
+    {
+      "id": "toys-018",
+      "term": "七巧板",
+      "aliases": []
+    },
+    {
+      "id": "toys-019",
+      "term": "数独棋盘",
+      "aliases": []
+    },
+    {
+      "id": "toys-020",
+      "term": "迷宫球",
+      "aliases": []
+    },
+    {
+      "id": "toys-021",
+      "term": "毛绒玩具",
+      "aliases": [
+        "毛绒娃娃"
+      ]
+    },
+    {
+      "id": "toys-022",
+      "term": "泰迪熊",
+      "aliases": []
+    },
+    {
+      "id": "toys-023",
+      "term": "毛绒兔",
+      "aliases": []
+    },
+    {
+      "id": "toys-024",
+      "term": "毛绒猫",
+      "aliases": []
+    },
+    {
+      "id": "toys-025",
+      "term": "毛绒狗",
+      "aliases": []
+    },
+    {
+      "id": "toys-026",
+      "term": "毛绒恐龙",
+      "aliases": []
+    },
+    {
+      "id": "toys-027",
+      "term": "毛绒公仔挂件",
+      "aliases": []
+    },
+    {
+      "id": "toys-028",
+      "term": "安抚玩偶",
+      "aliases": []
+    },
+    {
+      "id": "toys-029",
+      "term": "布娃娃",
+      "aliases": []
+    },
+    {
+      "id": "toys-030",
+      "term": "手偶",
+      "aliases": []
+    },
+    {
+      "id": "toys-031",
+      "term": "芭比娃娃",
+      "aliases": []
+    },
+    {
+      "id": "toys-032",
+      "term": "关节娃娃",
+      "aliases": []
+    },
+    {
+      "id": "toys-033",
+      "term": "娃娃屋",
+      "aliases": []
+    },
+    {
+      "id": "toys-034",
+      "term": "娃娃家具",
+      "aliases": []
+    },
+    {
+      "id": "toys-035",
+      "term": "娃娃服装",
+      "aliases": []
+    },
+    {
+      "id": "toys-036",
+      "term": "玩具婴儿车",
+      "aliases": []
+    },
+    {
+      "id": "toys-037",
+      "term": "过家家厨房",
+      "aliases": []
+    },
+    {
+      "id": "toys-038",
+      "term": "玩具餐具",
+      "aliases": []
+    },
+    {
+      "id": "toys-039",
+      "term": "医生玩具套装",
+      "aliases": []
+    },
+    {
+      "id": "toys-040",
+      "term": "收银台玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-041",
+      "term": "遥控汽车",
+      "aliases": []
+    },
+    {
+      "id": "toys-042",
+      "term": "遥控越野车",
+      "aliases": []
+    },
+    {
+      "id": "toys-043",
+      "term": "遥控坦克",
+      "aliases": []
+    },
+    {
+      "id": "toys-044",
+      "term": "遥控船",
+      "aliases": []
+    },
+    {
+      "id": "toys-045",
+      "term": "遥控直升机",
+      "aliases": []
+    },
+    {
+      "id": "toys-046",
+      "term": "玩具无人机",
+      "aliases": []
+    },
+    {
+      "id": "toys-047",
+      "term": "回力车",
+      "aliases": []
+    },
+    {
+      "id": "toys-048",
+      "term": "惯性车",
+      "aliases": []
+    },
+    {
+      "id": "toys-049",
+      "term": "轨道小火车",
+      "aliases": []
+    },
+    {
+      "id": "toys-050",
+      "term": "合金小汽车",
+      "aliases": []
+    },
+    {
+      "id": "toys-051",
+      "term": "汽车模型",
+      "aliases": []
+    },
+    {
+      "id": "toys-052",
+      "term": "飞机模型",
+      "aliases": []
+    },
+    {
+      "id": "toys-053",
+      "term": "船舶模型",
+      "aliases": []
+    },
+    {
+      "id": "toys-054",
+      "term": "坦克模型",
+      "aliases": []
+    },
+    {
+      "id": "toys-055",
+      "term": "机甲模型",
+      "aliases": []
+    },
+    {
+      "id": "toys-056",
+      "term": "动漫手办",
+      "aliases": [
+        "手办"
+      ]
+    },
+    {
+      "id": "toys-057",
+      "term": "盲盒公仔",
+      "aliases": [
+        "盲盒"
+      ]
+    },
+    {
+      "id": "toys-058",
+      "term": "可动人偶",
+      "aliases": []
+    },
+    {
+      "id": "toys-059",
+      "term": "恐龙模型",
+      "aliases": []
+    },
+    {
+      "id": "toys-060",
+      "term": "动物模型",
+      "aliases": []
+    },
+    {
+      "id": "toys-061",
+      "term": "飞行棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-062",
+      "term": "跳棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-063",
+      "term": "五子棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-064",
+      "term": "象棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-065",
+      "term": "围棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-066",
+      "term": "国际象棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-067",
+      "term": "斗兽棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-068",
+      "term": "军棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-069",
+      "term": "UNO牌",
+      "aliases": []
+    },
+    {
+      "id": "toys-070",
+      "term": "狼人杀卡牌",
+      "aliases": []
+    },
+    {
+      "id": "toys-071",
+      "term": "剧本桌游",
+      "aliases": []
+    },
+    {
+      "id": "toys-072",
+      "term": "大富翁桌游",
+      "aliases": []
+    },
+    {
+      "id": "toys-073",
+      "term": "扑克牌",
+      "aliases": []
+    },
+    {
+      "id": "toys-074",
+      "term": "麻将",
+      "aliases": []
+    },
+    {
+      "id": "toys-075",
+      "term": "叠叠乐",
+      "aliases": []
+    },
+    {
+      "id": "toys-076",
+      "term": "翻翻棋",
+      "aliases": []
+    },
+    {
+      "id": "toys-077",
+      "term": "记忆配对卡",
+      "aliases": []
+    },
+    {
+      "id": "toys-078",
+      "term": "故事骰子",
+      "aliases": []
+    },
+    {
+      "id": "toys-079",
+      "term": "桌上冰球玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-080",
+      "term": "桌上足球玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-081",
+      "term": "陀螺",
+      "aliases": []
+    },
+    {
+      "id": "toys-082",
+      "term": "悠悠球",
+      "aliases": []
+    },
+    {
+      "id": "toys-083",
+      "term": "溜溜球轨道玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-084",
+      "term": "弹珠轨道",
+      "aliases": []
+    },
+    {
+      "id": "toys-085",
+      "term": "泡泡机",
+      "aliases": []
+    },
+    {
+      "id": "toys-086",
+      "term": "泡泡棒",
+      "aliases": []
+    },
+    {
+      "id": "toys-087",
+      "term": "儿童钓鱼玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-088",
+      "term": "套圈玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-089",
+      "term": "打地鼠玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-090",
+      "term": "弹跳青蛙",
+      "aliases": []
+    },
+    {
+      "id": "toys-091",
+      "term": "橡皮泥",
+      "aliases": []
+    },
+    {
+      "id": "toys-092",
+      "term": "彩泥",
+      "aliases": []
+    },
+    {
+      "id": "toys-093",
+      "term": "儿童玩具沙",
+      "aliases": []
+    },
+    {
+      "id": "toys-094",
+      "term": "沙滩玩具",
+      "aliases": []
+    },
+    {
+      "id": "toys-095",
+      "term": "磁性画板",
+      "aliases": []
+    },
+    {
+      "id": "toys-096",
+      "term": "水画毯",
+      "aliases": []
+    },
+    {
+      "id": "toys-097",
+      "term": "儿童贴纸书",
+      "aliases": []
+    },
+    {
+      "id": "toys-098",
+      "term": "玩具电话",
+      "aliases": []
+    },
+    {
+      "id": "toys-099",
+      "term": "声光玩具琴",
+      "aliases": [
+        "玩具琴"
+      ]
+    },
+    {
+      "id": "toys-100",
+      "term": "洗澡玩具",
+      "aliases": []
+    }
+  ]
+}

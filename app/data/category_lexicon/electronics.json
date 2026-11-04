@@ -1,0 +1,534 @@
+{
+  "version": 1,
+  "category": "电子产品",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "electronics-001",
+      "term": "手机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-002",
+      "term": "备用手机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-003",
+      "term": "老年手机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-004",
+      "term": "智能手机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-005",
+      "term": "平板电脑",
+      "aliases": [
+        "平板",
+        "ipad"
+      ]
+    },
+    {
+      "id": "electronics-006",
+      "term": "电子书阅读器",
+      "aliases": [
+        "kindle"
+      ]
+    },
+    {
+      "id": "electronics-007",
+      "term": "电子词典",
+      "aliases": []
+    },
+    {
+      "id": "electronics-008",
+      "term": "翻译机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-009",
+      "term": "录音笔",
+      "aliases": []
+    },
+    {
+      "id": "electronics-010",
+      "term": "智能手表",
+      "aliases": []
+    },
+    {
+      "id": "electronics-011",
+      "term": "智能手环",
+      "aliases": []
+    },
+    {
+      "id": "electronics-012",
+      "term": "笔记本电脑",
+      "aliases": [
+        "手提电脑"
+      ]
+    },
+    {
+      "id": "electronics-013",
+      "term": "台式电脑",
+      "aliases": []
+    },
+    {
+      "id": "electronics-014",
+      "term": "一体机电脑",
+      "aliases": []
+    },
+    {
+      "id": "electronics-015",
+      "term": "迷你主机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-016",
+      "term": "显示器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-017",
+      "term": "便携显示器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-018",
+      "term": "机械键盘",
+      "aliases": [
+        "键盘"
+      ]
+    },
+    {
+      "id": "electronics-019",
+      "term": "薄膜键盘",
+      "aliases": []
+    },
+    {
+      "id": "electronics-020",
+      "term": "数字小键盘",
+      "aliases": []
+    },
+    {
+      "id": "electronics-021",
+      "term": "有线鼠标",
+      "aliases": []
+    },
+    {
+      "id": "electronics-022",
+      "term": "无线鼠标",
+      "aliases": [
+        "鼠标"
+      ]
+    },
+    {
+      "id": "electronics-023",
+      "term": "游戏鼠标",
+      "aliases": []
+    },
+    {
+      "id": "electronics-024",
+      "term": "触控板",
+      "aliases": []
+    },
+    {
+      "id": "electronics-025",
+      "term": "数位板",
+      "aliases": []
+    },
+    {
+      "id": "electronics-026",
+      "term": "数位屏",
+      "aliases": []
+    },
+    {
+      "id": "electronics-027",
+      "term": "手写笔",
+      "aliases": []
+    },
+    {
+      "id": "electronics-028",
+      "term": "触控笔",
+      "aliases": []
+    },
+    {
+      "id": "electronics-029",
+      "term": "电脑摄像头",
+      "aliases": []
+    },
+    {
+      "id": "electronics-030",
+      "term": "麦克风",
+      "aliases": []
+    },
+    {
+      "id": "electronics-031",
+      "term": "领夹麦克风",
+      "aliases": []
+    },
+    {
+      "id": "electronics-032",
+      "term": "声卡",
+      "aliases": []
+    },
+    {
+      "id": "electronics-033",
+      "term": "采集卡",
+      "aliases": []
+    },
+    {
+      "id": "electronics-034",
+      "term": "外置光驱",
+      "aliases": []
+    },
+    {
+      "id": "electronics-035",
+      "term": "打印机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-036",
+      "term": "扫描仪",
+      "aliases": []
+    },
+    {
+      "id": "electronics-037",
+      "term": "标签打印机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-038",
+      "term": "照片打印机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-039",
+      "term": "投影仪",
+      "aliases": []
+    },
+    {
+      "id": "electronics-040",
+      "term": "电视盒子",
+      "aliases": []
+    },
+    {
+      "id": "electronics-041",
+      "term": "蓝牙耳机",
+      "aliases": [
+        "耳机"
+      ]
+    },
+    {
+      "id": "electronics-042",
+      "term": "有线耳机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-043",
+      "term": "头戴式耳机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-044",
+      "term": "降噪耳机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-045",
+      "term": "骨传导耳机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-046",
+      "term": "耳机充电仓",
+      "aliases": []
+    },
+    {
+      "id": "electronics-047",
+      "term": "耳机保护套",
+      "aliases": []
+    },
+    {
+      "id": "electronics-048",
+      "term": "蓝牙音箱",
+      "aliases": [
+        "音箱"
+      ]
+    },
+    {
+      "id": "electronics-049",
+      "term": "桌面音箱",
+      "aliases": []
+    },
+    {
+      "id": "electronics-050",
+      "term": "便携收音机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-051",
+      "term": "MP3播放器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-052",
+      "term": "CD播放器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-053",
+      "term": "游戏机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-054",
+      "term": "掌上游戏机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-055",
+      "term": "游戏手柄",
+      "aliases": []
+    },
+    {
+      "id": "electronics-056",
+      "term": "游戏摇杆",
+      "aliases": []
+    },
+    {
+      "id": "electronics-057",
+      "term": "游戏方向盘",
+      "aliases": []
+    },
+    {
+      "id": "electronics-058",
+      "term": "VR眼镜",
+      "aliases": []
+    },
+    {
+      "id": "electronics-059",
+      "term": "电子计算器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-060",
+      "term": "智能摄像头",
+      "aliases": []
+    },
+    {
+      "id": "electronics-061",
+      "term": "数码相机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-062",
+      "term": "单反相机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-063",
+      "term": "微单相机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-064",
+      "term": "运动相机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-065",
+      "term": "拍立得",
+      "aliases": []
+    },
+    {
+      "id": "electronics-066",
+      "term": "摄像机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-067",
+      "term": "相机镜头",
+      "aliases": []
+    },
+    {
+      "id": "electronics-068",
+      "term": "闪光灯",
+      "aliases": []
+    },
+    {
+      "id": "electronics-069",
+      "term": "摄影补光灯",
+      "aliases": []
+    },
+    {
+      "id": "electronics-070",
+      "term": "相机电池",
+      "aliases": []
+    },
+    {
+      "id": "electronics-071",
+      "term": "相机充电器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-072",
+      "term": "存储卡",
+      "aliases": []
+    },
+    {
+      "id": "electronics-073",
+      "term": "读卡器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-074",
+      "term": "U盘",
+      "aliases": [
+        "优盘"
+      ]
+    },
+    {
+      "id": "electronics-075",
+      "term": "移动硬盘",
+      "aliases": []
+    },
+    {
+      "id": "electronics-076",
+      "term": "固态硬盘",
+      "aliases": []
+    },
+    {
+      "id": "electronics-077",
+      "term": "机械硬盘",
+      "aliases": []
+    },
+    {
+      "id": "electronics-078",
+      "term": "内存条",
+      "aliases": []
+    },
+    {
+      "id": "electronics-079",
+      "term": "显卡",
+      "aliases": []
+    },
+    {
+      "id": "electronics-080",
+      "term": "电脑电源",
+      "aliases": []
+    },
+    {
+      "id": "electronics-081",
+      "term": "路由器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-082",
+      "term": "无线网卡",
+      "aliases": []
+    },
+    {
+      "id": "electronics-083",
+      "term": "交换机",
+      "aliases": []
+    },
+    {
+      "id": "electronics-084",
+      "term": "随身WiFi",
+      "aliases": []
+    },
+    {
+      "id": "electronics-085",
+      "term": "充电宝",
+      "aliases": [
+        "移动电源"
+      ]
+    },
+    {
+      "id": "electronics-086",
+      "term": "手机充电器",
+      "aliases": [
+        "充电头",
+        "充电插头"
+      ]
+    },
+    {
+      "id": "electronics-087",
+      "term": "笔记本充电器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-088",
+      "term": "无线充电器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-089",
+      "term": "手机数据线",
+      "aliases": [
+        "数据线",
+        "充电线"
+      ]
+    },
+    {
+      "id": "electronics-090",
+      "term": "HDMI线",
+      "aliases": []
+    },
+    {
+      "id": "electronics-091",
+      "term": "网线",
+      "aliases": []
+    },
+    {
+      "id": "electronics-092",
+      "term": "视频转接头",
+      "aliases": []
+    },
+    {
+      "id": "electronics-093",
+      "term": "扩展坞",
+      "aliases": []
+    },
+    {
+      "id": "electronics-094",
+      "term": "USB集线器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-095",
+      "term": "手机壳",
+      "aliases": []
+    },
+    {
+      "id": "electronics-096",
+      "term": "手机支架",
+      "aliases": [
+        "懒人支架"
+      ]
+    },
+    {
+      "id": "electronics-097",
+      "term": "平板保护套",
+      "aliases": []
+    },
+    {
+      "id": "electronics-098",
+      "term": "笔记本散热器",
+      "aliases": []
+    },
+    {
+      "id": "electronics-099",
+      "term": "自拍杆",
+      "aliases": []
+    },
+    {
+      "id": "electronics-100",
+      "term": "相机三脚架",
+      "aliases": []
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "category": "家居用品",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "home-001",
+      "term": "台灯",
+      "aliases": []
+    },
+    {
+      "id": "home-002",
+      "term": "床头灯",
+      "aliases": []
+    },
+    {
+      "id": "home-003",
+      "term": "落地灯",
+      "aliases": []
+    },
+    {
+      "id": "home-004",
+      "term": "夜灯",
+      "aliases": []
+    },
+    {
+      "id": "home-005",
+      "term": "灯泡",
+      "aliases": []
+    },
+    {
+      "id": "home-006",
+      "term": "插线板",
+      "aliases": [
+        "排插",
+        "插排"
+      ]
+    },
+    {
+      "id": "home-007",
+      "term": "延长线",
+      "aliases": []
+    },
+    {
+      "id": "home-008",
+      "term": "电风扇",
+      "aliases": []
+    },
+    {
+      "id": "home-009",
+      "term": "桌面风扇",
+      "aliases": []
+    },
+    {
+      "id": "home-010",
+      "term": "手持小风扇",
+      "aliases": []
+    },
+    {
+      "id": "home-011",
+      "term": "吹风机",
+      "aliases": []
+    },
+    {
+      "id": "home-012",
+      "term": "电热水壶",
+      "aliases": [
+        "烧水壶"
+      ]
+    },
+    {
+      "id": "home-013",
+      "term": "电饭煲",
+      "aliases": []
+    },
+    {
+      "id": "home-014",
+      "term": "电煮锅",
+      "aliases": []
+    },
+    {
+      "id": "home-015",
+      "term": "电蒸锅",
+      "aliases": []
+    },
+    {
+      "id": "home-016",
+      "term": "电磁炉",
+      "aliases": []
+    },
+    {
+      "id": "home-017",
+      "term": "微波炉",
+      "aliases": []
+    },
+    {
+      "id": "home-018",
+      "term": "空气炸锅",
+      "aliases": []
+    },
+    {
+      "id": "home-019",
+      "term": "烤箱",
+      "aliases": []
+    },
+    {
+      "id": "home-020",
+      "term": "三明治机",
+      "aliases": []
+    },
+    {
+      "id": "home-021",
+      "term": "咖啡机",
+      "aliases": []
+    },
+    {
+      "id": "home-022",
+      "term": "豆浆机",
+      "aliases": []
+    },
+    {
+      "id": "home-023",
+      "term": "榨汁机",
+      "aliases": []
+    },
+    {
+      "id": "home-024",
+      "term": "养生壶",
+      "aliases": []
+    },
+    {
+      "id": "home-025",
+      "term": "保温杯",
+      "aliases": []
+    },
+    {
+      "id": "home-026",
+      "term": "水杯",
+      "aliases": []
+    },
+    {
+      "id": "home-027",
+      "term": "马克杯",
+      "aliases": []
+    },
+    {
+      "id": "home-028",
+      "term": "玻璃杯",
+      "aliases": []
+    },
+    {
+      "id": "home-029",
+      "term": "水壶",
+      "aliases": []
+    },
+    {
+      "id": "home-030",
+      "term": "暖水瓶",
+      "aliases": []
+    },
+    {
+      "id": "home-031",
+      "term": "饭盒",
+      "aliases": []
+    },
+    {
+      "id": "home-032",
+      "term": "保鲜盒",
+      "aliases": []
+    },
+    {
+      "id": "home-033",
+      "term": "餐盘",
+      "aliases": []
+    },
+    {
+      "id": "home-034",
+      "term": "饭碗",
+      "aliases": []
+    },
+    {
+      "id": "home-035",
+      "term": "筷子",
+      "aliases": []
+    },
+    {
+      "id": "home-036",
+      "term": "勺子",
+      "aliases": []
+    },
+    {
+      "id": "home-037",
+      "term": "叉子",
+      "aliases": []
+    },
+    {
+      "id": "home-038",
+      "term": "炒锅",
+      "aliases": []
+    },
+    {
+      "id": "home-039",
+      "term": "平底锅",
+      "aliases": []
+    },
+    {
+      "id": "home-040",
+      "term": "蒸锅",
+      "aliases": []
+    },
+    {
+      "id": "home-041",
+      "term": "砧板",
+      "aliases": []
+    },
+    {
+      "id": "home-042",
+      "term": "削皮器",
+      "aliases": []
+    },
+    {
+      "id": "home-043",
+      "term": "厨房秤",
+      "aliases": []
+    },
+    {
+      "id": "home-044",
+      "term": "厨房置物架",
+      "aliases": []
+    },
+    {
+      "id": "home-045",
+      "term": "沥水架",
+      "aliases": []
+    },
+    {
+      "id": "home-046",
+      "term": "收纳箱",
+      "aliases": []
+    },
+    {
+      "id": "home-047",
+      "term": "收纳盒",
+      "aliases": []
+    },
+    {
+      "id": "home-048",
+      "term": "收纳篮",
+      "aliases": []
+    },
+    {
+      "id": "home-049",
+      "term": "抽屉收纳格",
+      "aliases": []
+    },
+    {
+      "id": "home-050",
+      "term": "桌面收纳架",
+      "aliases": []
+    },
+    {
+      "id": "home-051",
+      "term": "书架",
+      "aliases": []
+    },
+    {
+      "id": "home-052",
+      "term": "置物架",
+      "aliases": []
+    },
+    {
+      "id": "home-053",
+      "term": "床边挂篮",
+      "aliases": []
+    },
+    {
+      "id": "home-054",
+      "term": "挂钩",
+      "aliases": []
+    },
+    {
+      "id": "home-055",
+      "term": "衣架",
+      "aliases": []
+    },
+    {
+      "id": "home-056",
+      "term": "裤架",
+      "aliases": []
+    },
+    {
+      "id": "home-057",
+      "term": "晾衣架",
+      "aliases": []
+    },
+    {
+      "id": "home-058",
+      "term": "鞋架",
+      "aliases": []
+    },
+    {
+      "id": "home-059",
+      "term": "脏衣篮",
+      "aliases": [
+        "脏衣篓"
+      ]
+    },
+    {
+      "id": "home-060",
+      "term": "行李收纳袋",
+      "aliases": []
+    },
+    {
+      "id": "home-061",
+      "term": "真空压缩袋",
+      "aliases": []
+    },
+    {
+      "id": "home-062",
+      "term": "被子",
+      "aliases": []
+    },
+    {
+      "id": "home-063",
+      "term": "被套",
+      "aliases": []
+    },
+    {
+      "id": "home-064",
+      "term": "床单",
+      "aliases": []
+    },
+    {
+      "id": "home-065",
+      "term": "床笠",
+      "aliases": []
+    },
+    {
+      "id": "home-066",
+      "term": "枕头",
+      "aliases": []
+    },
+    {
+      "id": "home-067",
+      "term": "枕套",
+      "aliases": []
+    },
+    {
+      "id": "home-068",
+      "term": "床垫",
+      "aliases": []
+    },
+    {
+      "id": "home-069",
+      "term": "床褥",
+      "aliases": []
+    },
+    {
+      "id": "home-070",
+      "term": "凉席",
+      "aliases": []
+    },
+    {
+      "id": "home-071",
+      "term": "毛毯",
+      "aliases": []
+    },
+    {
+      "id": "home-072",
+      "term": "抱枕",
+      "aliases": []
+    },
+    {
+      "id": "home-073",
+      "term": "靠垫",
+      "aliases": []
+    },
+    {
+      "id": "home-074",
+      "term": "蚊帐",
+      "aliases": []
+    },
+    {
+      "id": "home-075",
+      "term": "床帘",
+      "aliases": []
+    },
+    {
+      "id": "home-076",
+      "term": "窗帘",
+      "aliases": []
+    },
+    {
+      "id": "home-077",
+      "term": "地毯",
+      "aliases": []
+    },
+    {
+      "id": "home-078",
+      "term": "门垫",
+      "aliases": []
+    },
+    {
+      "id": "home-079",
+      "term": "折叠桌",
+      "aliases": []
+    },
+    {
+      "id": "home-080",
+      "term": "床上书桌",
+      "aliases": []
+    },
+    {
+      "id": "home-081",
+      "term": "折叠椅",
+      "aliases": []
+    },
+    {
+      "id": "home-082",
+      "term": "凳子",
+      "aliases": []
+    },
+    {
+      "id": "home-083",
+      "term": "坐垫",
+      "aliases": []
+    },
+    {
+      "id": "home-084",
+      "term": "穿衣镜",
+      "aliases": []
+    },
+    {
+      "id": "home-085",
+      "term": "化妆镜",
+      "aliases": []
+    },
+    {
+      "id": "home-086",
+      "term": "闹钟",
+      "aliases": []
+    },
+    {
+      "id": "home-087",
+      "term": "挂钟",
+      "aliases": []
+    },
+    {
+      "id": "home-088",
+      "term": "垃圾桶",
+      "aliases": []
+    },
+    {
+      "id": "home-089",
+      "term": "扫把",
+      "aliases": []
+    },
+    {
+      "id": "home-090",
+      "term": "拖把",
+      "aliases": []
+    },
+    {
+      "id": "home-091",
+      "term": "簸箕",
+      "aliases": []
+    },
+    {
+      "id": "home-092",
+      "term": "吸尘器",
+      "aliases": []
+    },
+    {
+      "id": "home-093",
+      "term": "洗脸盆",
+      "aliases": []
+    },
+    {
+      "id": "home-094",
+      "term": "水桶",
+      "aliases": []
+    },
+    {
+      "id": "home-095",
+      "term": "鞋刷",
+      "aliases": []
+    },
+    {
+      "id": "home-096",
+      "term": "清洁刷",
+      "aliases": []
+    },
+    {
+      "id": "home-097",
+      "term": "雨伞",
+      "aliases": []
+    },
+    {
+      "id": "home-098",
+      "term": "加湿器",
+      "aliases": []
+    },
+    {
+      "id": "home-099",
+      "term": "除湿机",
+      "aliases": []
+    },
+    {
+      "id": "home-100",
+      "term": "空气净化器",
+      "aliases": []
+    }
+  ]
+}

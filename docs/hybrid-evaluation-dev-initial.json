@@ -1,0 +1,2767 @@
+{
+  "warning": "Agent synthetic; not real users or independent human labels. Fixed titles split before evaluation; familiar concepts may overlap.",
+  "split": "dev",
+  "model": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+  "revision": "8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+  "environment": {
+    "python": "3.12.10",
+    "cpu": "Intel64 Family 6 Model 204 Stepping 2, GenuineIntel",
+    "ram_gib": 31.51613998413086,
+    "threads": 2
+  },
+  "config": {
+    "CLASSIFICATION_BATCH_SIZE": 8,
+    "CLASSIFICATION_ENABLED": true,
+    "CLASSIFICATION_HYBRID_MIN_SUPPORT": 0.55,
+    "CLASSIFICATION_MIN_MARGIN": 0.25,
+    "CLASSIFICATION_MIN_SCORE": 0.45,
+    "CLASSIFICATION_MIN_SUPPORT": 0.7,
+    "CLASSIFICATION_MODEL_PATH": "C:\\Users\\sun\\Documents\\Codex\\2026-10-22\\qin\\outputs\\campus-loop\\app\\..\\models\\mdeberta",
+    "CLASSIFICATION_TEMPLATE": "这段文字描述的是{label}。",
+    "CLASSIFICATION_THREADS": 2
+  },
+  "load_seconds": 6.338983900030144,
+  "max_sampled_rss_mb": 1644.0703125,
+  "timing_scope": "service call, no HTTP; excludes model load, includes tokenization; paired sequential CPU calls",
+  "results": [
+    {
+      "id": "hy-1",
+      "title": "闲置充电头",
+      "acceptable": [
+        "电子产品"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.6898987293243408,
+        "support": 0.9995670914649963
+      },
+      "baseline": [],
+      "hybrid": [
+        "电子产品"
+      ],
+      "retrieval": [
+        "电子产品"
+      ],
+      "lexicon_fallback": [
+        "电子产品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "电子产品",
+        "candidates": [
+          {
+            "category": "电子产品",
+            "source": "hybrid",
+            "evidence": [
+              "手机充电器"
+            ],
+            "reason": "匹配词：手机充电器"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.46821639995323494,
+      "hybrid_seconds": 0.25537460000487044,
+      "retrieval_seconds": 0.009336300019640476
+    },
+    {
+      "id": "hy-2",
+      "title": "马赛克",
+      "acceptable": [
+        "艺术品"
+      ],
+      "kind": "ambiguous",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.6122857928276062,
+        "support": 0.9976033568382263
+      },
+      "baseline": [],
+      "hybrid": [
+        "艺术品"
+      ],
+      "retrieval": [
+        "艺术品"
+      ],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "suggested",
+        "category": "艺术品",
+        "candidates": [
+          {
+            "category": "艺术品",
+            "source": "hybrid",
+            "evidence": [
+              "马赛克艺术画"
+            ],
+            "reason": "匹配词：马赛克艺术画"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4410482000093907,
+      "hybrid_seconds": 0.25371320004342124,
+      "retrieval_seconds": 0.009302699996624142
+    },
+    {
+      "id": "hy-3",
+      "title": "罗技无线鼠标便宜出",
+      "acceptable": [
+        "电子产品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.7238610982894897,
+        "support": 0.9998900890350342
+      },
+      "baseline": [
+        "电子产品"
+      ],
+      "hybrid": [
+        "电子产品"
+      ],
+      "retrieval": [
+        "电子产品"
+      ],
+      "lexicon_fallback": [
+        "电子产品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "电子产品",
+        "candidates": [
+          {
+            "category": "电子产品",
+            "source": "hybrid",
+            "evidence": [
+              "无线鼠标"
+            ],
+            "reason": "匹配词：无线鼠标"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.5091369000147097,
+      "hybrid_seconds": 0.26956759998574853,
+      "retrieval_seconds": 0.008665400033351034
+    },
+    {
+      "id": "hy-4",
+      "title": "机",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.8954578638076782,
+        "support": 0.9998869895935059
+      },
+      "baseline": [
+        "电子产品"
+      ],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.4227274999720976,
+      "hybrid_seconds": 5.600042641162872e-06,
+      "retrieval_seconds": 0.00011059996904805303
+    },
+    {
+      "id": "hy-5",
+      "title": "旧手机壳两个",
+      "acceptable": [
+        "电子产品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.688583254814148,
+        "support": 0.9998359680175781
+      },
+      "baseline": [
+        "电子产品"
+      ],
+      "hybrid": [
+        "电子产品"
+      ],
+      "retrieval": [
+        "电子产品"
+      ],
+      "lexicon_fallback": [
+        "电子产品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "电子产品",
+        "candidates": [
+          {
+            "category": "电子产品",
+            "source": "hybrid",
+            "evidence": [
+              "手机壳"
+            ],
+            "reason": "匹配词：手机壳"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.48417489998973906,
+      "hybrid_seconds": 0.26534459996037185,
+      "retrieval_seconds": 0.009192900033667684
+    },
+    {
+      "id": "hy-14",
+      "title": "高等数学教材上下册",
+      "acceptable": [
+        "书籍"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "书籍",
+        "score": 0.8638952970504761,
+        "support": 0.9977966547012329
+      },
+      "baseline": [
+        "书籍"
+      ],
+      "hybrid": [
+        "书籍"
+      ],
+      "retrieval": [
+        "书籍"
+      ],
+      "lexicon_fallback": [
+        "书籍"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "书籍",
+        "candidates": [
+          {
+            "category": "书籍",
+            "source": "hybrid",
+            "evidence": [
+              "高等数学教材"
+            ],
+            "reason": "匹配词：高等数学教材"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.47362449998036027,
+      "hybrid_seconds": 0.26071880001109093,
+      "retrieval_seconds": 0.00983629998518154
+    },
+    {
+      "id": "hy-15",
+      "title": "六级卷子没写过",
+      "acceptable": [
+        "书籍"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.3065962493419647,
+        "support": 0.9695069193840027
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [
+        "书籍"
+      ],
+      "lexicon_fallback": [
+        "书籍"
+      ],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.50634279998485,
+      "hybrid_seconds": 0.26994219998596236,
+      "retrieval_seconds": 0.009291400026995689
+    },
+    {
+      "id": "hy-16",
+      "title": "考研英语资料一箱",
+      "acceptable": [
+        "书籍"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "书籍",
+        "score": 0.9725654125213623,
+        "support": 0.9997116923332214
+      },
+      "baseline": [
+        "书籍"
+      ],
+      "hybrid": [
+        "书籍"
+      ],
+      "retrieval": [
+        "书籍"
+      ],
+      "lexicon_fallback": [
+        "书籍"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "书籍",
+        "candidates": [
+          {
+            "category": "书籍",
+            "source": "hybrid",
+            "evidence": [
+              "考研英语资料"
+            ],
+            "reason": "匹配词：考研英语资料"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.49214510002639145,
+      "hybrid_seconds": 0.2742847000481561,
+      "retrieval_seconds": 0.009280500002205372
+    },
+    {
+      "id": "hy-17",
+      "title": "机器学习教材带笔记",
+      "acceptable": [
+        "书籍"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "书籍",
+        "score": 0.935462236404419,
+        "support": 0.997637152671814
+      },
+      "baseline": [
+        "书籍"
+      ],
+      "hybrid": [
+        "书籍"
+      ],
+      "retrieval": [
+        "书籍"
+      ],
+      "lexicon_fallback": [
+        "书籍"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "书籍",
+        "candidates": [
+          {
+            "category": "书籍",
+            "source": "hybrid",
+            "evidence": [
+              "机器学习教材"
+            ],
+            "reason": "匹配词：机器学习教材"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4728915999876335,
+      "hybrid_seconds": 0.2655380999785848,
+      "retrieval_seconds": 0.009050099994055927
+    },
+    {
+      "id": "hy-18",
+      "title": "看完的漫画",
+      "acceptable": [
+        "书籍"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.594150185585022,
+        "support": 0.9314137101173401
+      },
+      "baseline": [],
+      "hybrid": [
+        "书籍"
+      ],
+      "retrieval": [
+        "书籍"
+      ],
+      "lexicon_fallback": [
+        "书籍"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "书籍",
+        "candidates": [
+          {
+            "category": "书籍",
+            "source": "hybrid",
+            "evidence": [
+              "漫画书"
+            ],
+            "reason": "匹配词：漫画书"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4615105999982916,
+      "hybrid_seconds": 0.26768049999373034,
+      "retrieval_seconds": 0.008742099977098405
+    },
+    {
+      "id": "hy-27",
+      "title": "篮球鞋四十二码",
+      "acceptable": [
+        "服装"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.9142903089523315,
+        "support": 0.9999396800994873
+      },
+      "baseline": [
+        "运动器材"
+      ],
+      "hybrid": [
+        "服装"
+      ],
+      "retrieval": [
+        "服装"
+      ],
+      "lexicon_fallback": [
+        "服装"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "服装",
+        "candidates": [
+          {
+            "category": "服装",
+            "source": "hybrid",
+            "evidence": [
+              "篮球鞋"
+            ],
+            "reason": "匹配词：篮球鞋"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.47425839997595176,
+      "hybrid_seconds": 0.257969000027515,
+      "retrieval_seconds": 0.008836099994368851
+    },
+    {
+      "id": "hy-28",
+      "title": "背包几乎没背",
+      "acceptable": [
+        "服装"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.5187770128250122,
+        "support": 0.9969335794448853
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [
+        "服装"
+      ],
+      "lexicon_fallback": [
+        "服装"
+      ],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.47845980001147836,
+      "hybrid_seconds": 0.2569082999834791,
+      "retrieval_seconds": 0.0092527000233531
+    },
+    {
+      "id": "hy-29",
+      "title": "短袖T恤两件",
+      "acceptable": [
+        "服装"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "服装",
+        "score": 0.8018326759338379,
+        "support": 0.9822571873664856
+      },
+      "baseline": [
+        "服装"
+      ],
+      "hybrid": [
+        "服装"
+      ],
+      "retrieval": [
+        "服装"
+      ],
+      "lexicon_fallback": [
+        "服装"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "服装",
+        "candidates": [
+          {
+            "category": "服装",
+            "source": "hybrid",
+            "evidence": [
+              "T恤"
+            ],
+            "reason": "匹配词：T恤"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.48933260003104806,
+      "hybrid_seconds": 0.27574339997954667,
+      "retrieval_seconds": 0.008789399988017976
+    },
+    {
+      "id": "hy-30",
+      "title": "冬天穿的羽绒服",
+      "acceptable": [
+        "服装"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "服装",
+        "score": 0.5654165148735046,
+        "support": 0.9994182586669922
+      },
+      "baseline": [],
+      "hybrid": [
+        "服装"
+      ],
+      "retrieval": [
+        "服装"
+      ],
+      "lexicon_fallback": [
+        "服装"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "服装",
+        "candidates": [
+          {
+            "category": "服装",
+            "source": "hybrid",
+            "evidence": [
+              "羽绒服"
+            ],
+            "reason": "匹配词：羽绒服"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.5054139000130817,
+      "hybrid_seconds": 0.26924629998393357,
+      "retrieval_seconds": 0.008617299958132207
+    },
+    {
+      "id": "hy-31",
+      "title": "棒球帽便宜出",
+      "acceptable": [
+        "服装"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.7201139330863953,
+        "support": 0.9999314546585083
+      },
+      "baseline": [
+        "运动器材"
+      ],
+      "hybrid": [
+        "服装"
+      ],
+      "retrieval": [
+        "服装"
+      ],
+      "lexicon_fallback": [
+        "服装"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "服装",
+        "candidates": [
+          {
+            "category": "服装",
+            "source": "hybrid",
+            "evidence": [
+              "棒球帽"
+            ],
+            "reason": "匹配词：棒球帽"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.47640889999456704,
+      "hybrid_seconds": 0.2584535999922082,
+      "retrieval_seconds": 0.009508399991318583
+    },
+    {
+      "id": "hy-40",
+      "title": "宿舍台灯九成新",
+      "acceptable": [
+        "家居用品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "家居用品",
+        "score": 0.7292807102203369,
+        "support": 0.9998918771743774
+      },
+      "baseline": [
+        "家居用品"
+      ],
+      "hybrid": [
+        "家居用品"
+      ],
+      "retrieval": [
+        "家居用品"
+      ],
+      "lexicon_fallback": [
+        "家居用品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "家居用品",
+        "candidates": [
+          {
+            "category": "家居用品",
+            "source": "hybrid",
+            "evidence": [
+              "台灯"
+            ],
+            "reason": "匹配词：台灯"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.507985699980054,
+      "hybrid_seconds": 0.2708459999994375,
+      "retrieval_seconds": 0.008909399970434606
+    },
+    {
+      "id": "hy-41",
+      "title": "闲置电饭煲",
+      "acceptable": [
+        "家居用品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "家居用品",
+        "score": 0.39744752645492554,
+        "support": 0.9995152950286865
+      },
+      "baseline": [],
+      "hybrid": [
+        "家居用品"
+      ],
+      "retrieval": [
+        "家居用品"
+      ],
+      "lexicon_fallback": [
+        "家居用品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "家居用品",
+        "candidates": [
+          {
+            "category": "家居用品",
+            "source": "hybrid",
+            "evidence": [
+              "电饭煲"
+            ],
+            "reason": "匹配词：电饭煲"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4742736000334844,
+      "hybrid_seconds": 0.2816467999946326,
+      "retrieval_seconds": 0.008894900034647435
+    },
+    {
+      "id": "hy-42",
+      "title": "排插三米长",
+      "acceptable": [
+        "家居用品"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.43422219157218933,
+        "support": 0.9943022727966309
+      },
+      "baseline": [],
+      "hybrid": [
+        "家居用品"
+      ],
+      "retrieval": [
+        "家居用品"
+      ],
+      "lexicon_fallback": [
+        "家居用品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "家居用品",
+        "candidates": [
+          {
+            "category": "家居用品",
+            "source": "hybrid",
+            "evidence": [
+              "插线板"
+            ],
+            "reason": "匹配词：插线板"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4902914999984205,
+      "hybrid_seconds": 0.2764566999976523,
+      "retrieval_seconds": 0.009137600020039827
+    },
+    {
+      "id": "hy-43",
+      "title": "床帘全套",
+      "acceptable": [
+        "家居用品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "家居用品",
+        "score": 0.8734295964241028,
+        "support": 0.999893069267273
+      },
+      "baseline": [
+        "家居用品"
+      ],
+      "hybrid": [
+        "家居用品"
+      ],
+      "retrieval": [
+        "家居用品"
+      ],
+      "lexicon_fallback": [
+        "家居用品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "家居用品",
+        "candidates": [
+          {
+            "category": "家居用品",
+            "source": "hybrid",
+            "evidence": [
+              "床帘"
+            ],
+            "reason": "匹配词：床帘"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4770121999899857,
+      "hybrid_seconds": 0.25805189996026456,
+      "retrieval_seconds": 0.009004799998365343
+    },
+    {
+      "id": "hy-44",
+      "title": "收纳箱和衣架",
+      "acceptable": [
+        "家居用品"
+      ],
+      "kind": "combination",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "家居用品",
+        "score": 0.8338600397109985,
+        "support": 0.9998787641525269
+      },
+      "baseline": [
+        "家居用品"
+      ],
+      "hybrid": [
+        "家居用品"
+      ],
+      "retrieval": [
+        "家居用品"
+      ],
+      "lexicon_fallback": [
+        "家居用品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "家居用品",
+        "candidates": [
+          {
+            "category": "家居用品",
+            "source": "hybrid",
+            "evidence": [
+              "收纳箱",
+              "衣架"
+            ],
+            "reason": "匹配词：收纳箱、衣架"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.49212579999584705,
+      "hybrid_seconds": 0.27276379999239,
+      "retrieval_seconds": 0.017192100000102073
+    },
+    {
+      "id": "hy-53",
+      "title": "溜冰鞋可调节大小",
+      "acceptable": [
+        "运动器材"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.5221036076545715,
+        "support": 0.9999352693557739
+      },
+      "baseline": [],
+      "hybrid": [
+        "运动器材"
+      ],
+      "retrieval": [
+        "运动器材"
+      ],
+      "lexicon_fallback": [
+        "运动器材"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "运动器材",
+        "candidates": [
+          {
+            "category": "运动器材",
+            "source": "hybrid",
+            "evidence": [
+              "轮滑鞋"
+            ],
+            "reason": "匹配词：轮滑鞋"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.49464499996975064,
+      "hybrid_seconds": 0.26378049998311326,
+      "retrieval_seconds": 0.008974800002761185
+    },
+    {
+      "id": "hy-54",
+      "title": "瑜伽垫全新",
+      "acceptable": [
+        "运动器材"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.8949670195579529,
+        "support": 0.999937891960144
+      },
+      "baseline": [
+        "运动器材"
+      ],
+      "hybrid": [
+        "运动器材"
+      ],
+      "retrieval": [
+        "运动器材"
+      ],
+      "lexicon_fallback": [
+        "运动器材"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "运动器材",
+        "candidates": [
+          {
+            "category": "运动器材",
+            "source": "hybrid",
+            "evidence": [
+              "瑜伽垫"
+            ],
+            "reason": "匹配词：瑜伽垫"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.45346230000723153,
+      "hybrid_seconds": 0.25895990000572056,
+      "retrieval_seconds": 0.00924819998908788
+    },
+    {
+      "id": "hy-55",
+      "title": "哑铃两只",
+      "acceptable": [
+        "运动器材"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.32464146614074707,
+        "support": 0.9937339425086975
+      },
+      "baseline": [],
+      "hybrid": [
+        "运动器材"
+      ],
+      "retrieval": [
+        "运动器材"
+      ],
+      "lexicon_fallback": [
+        "运动器材"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "运动器材",
+        "candidates": [
+          {
+            "category": "运动器材",
+            "source": "hybrid",
+            "evidence": [
+              "哑铃"
+            ],
+            "reason": "匹配词：哑铃"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.45680750004248694,
+      "hybrid_seconds": 0.25108769995858893,
+      "retrieval_seconds": 0.008965599990915507
+    },
+    {
+      "id": "hy-56",
+      "title": "琴",
+      "acceptable": [
+        "乐器",
+        "玩具"
+      ],
+      "kind": "ambiguous",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.2926316261291504,
+        "support": 0.9912711381912231
+      },
+      "baseline": [],
+      "hybrid": [
+        "乐器",
+        "玩具"
+      ],
+      "retrieval": [
+        "乐器",
+        "玩具"
+      ],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "suggested",
+        "category": null,
+        "candidates": [
+          {
+            "category": "乐器",
+            "source": "hybrid",
+            "evidence": [
+              "古琴",
+              "柳琴"
+            ],
+            "reason": "匹配词：古琴、柳琴"
+          },
+          {
+            "category": "玩具",
+            "source": "hybrid",
+            "evidence": [
+              "声光玩具琴"
+            ],
+            "reason": "匹配词：声光玩具琴"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.41617019998375326,
+      "hybrid_seconds": 0.2610273999744095,
+      "retrieval_seconds": 0.008800900017376989
+    },
+    {
+      "id": "hy-57",
+      "title": "羽毛球拍带拍套",
+      "acceptable": [
+        "运动器材"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.6280725002288818,
+        "support": 0.9999289512634277
+      },
+      "baseline": [
+        "运动器材"
+      ],
+      "hybrid": [
+        "运动器材"
+      ],
+      "retrieval": [
+        "运动器材"
+      ],
+      "lexicon_fallback": [
+        "运动器材"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "运动器材",
+        "candidates": [
+          {
+            "category": "运动器材",
+            "source": "hybrid",
+            "evidence": [
+              "羽毛球拍"
+            ],
+            "reason": "匹配词：羽毛球拍"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4860890000127256,
+      "hybrid_seconds": 0.2748544000205584,
+      "retrieval_seconds": 0.00904799997806549
+    },
+    {
+      "id": "hy-66",
+      "title": "入门木吉他",
+      "acceptable": [
+        "乐器"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.6363443732261658,
+        "support": 0.9998972415924072
+      },
+      "baseline": [
+        "运动器材"
+      ],
+      "hybrid": [
+        "乐器"
+      ],
+      "retrieval": [
+        "乐器"
+      ],
+      "lexicon_fallback": [
+        "乐器"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "乐器",
+        "candidates": [
+          {
+            "category": "乐器",
+            "source": "hybrid",
+            "evidence": [
+              "民谣吉他"
+            ],
+            "reason": "匹配词：民谣吉他"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.47088629996869713,
+      "hybrid_seconds": 0.2578139000106603,
+      "retrieval_seconds": 0.009041099983733147
+    },
+    {
+      "id": "hy-67",
+      "title": "拇指琴十七音",
+      "acceptable": [
+        "乐器"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.4214990735054016,
+        "support": 0.9987276196479797
+      },
+      "baseline": [],
+      "hybrid": [
+        "乐器"
+      ],
+      "retrieval": [
+        "乐器"
+      ],
+      "lexicon_fallback": [
+        "乐器"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "乐器",
+        "candidates": [
+          {
+            "category": "乐器",
+            "source": "hybrid",
+            "evidence": [
+              "卡林巴琴"
+            ],
+            "reason": "匹配词：卡林巴琴"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.47532019997015595,
+      "hybrid_seconds": 0.2567712999880314,
+      "retrieval_seconds": 0.008668700000271201
+    },
+    {
+      "id": "hy-68",
+      "title": "电子琴带琴架",
+      "acceptable": [
+        "乐器"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.6104496717453003,
+        "support": 0.9992407560348511
+      },
+      "baseline": [
+        "电子产品"
+      ],
+      "hybrid": [
+        "乐器"
+      ],
+      "retrieval": [
+        "乐器"
+      ],
+      "lexicon_fallback": [
+        "乐器"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "乐器",
+        "candidates": [
+          {
+            "category": "乐器",
+            "source": "hybrid",
+            "evidence": [
+              "电子琴"
+            ],
+            "reason": "匹配词：电子琴"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.47114489995874465,
+      "hybrid_seconds": 0.26422110002022237,
+      "retrieval_seconds": 0.009220400010235608
+    },
+    {
+      "id": "hy-69",
+      "title": "萨克斯哨片一盒",
+      "acceptable": [
+        "乐器"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.7025994658470154,
+        "support": 0.9999339580535889
+      },
+      "baseline": [
+        "运动器材"
+      ],
+      "hybrid": [
+        "乐器"
+      ],
+      "retrieval": [
+        "乐器"
+      ],
+      "lexicon_fallback": [
+        "乐器"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "乐器",
+        "candidates": [
+          {
+            "category": "乐器",
+            "source": "hybrid",
+            "evidence": [
+              "萨克斯哨片"
+            ],
+            "reason": "匹配词：萨克斯哨片"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.48964829999022186,
+      "hybrid_seconds": 0.267928600020241,
+      "retrieval_seconds": 0.009510600008070469
+    },
+    {
+      "id": "hy-70",
+      "title": "吉他音箱小功率",
+      "acceptable": [
+        "乐器"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.4190104305744171,
+        "support": 0.9978072047233582
+      },
+      "baseline": [],
+      "hybrid": [
+        "乐器"
+      ],
+      "retrieval": [
+        "乐器"
+      ],
+      "lexicon_fallback": [
+        "乐器"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "乐器",
+        "candidates": [
+          {
+            "category": "乐器",
+            "source": "hybrid",
+            "evidence": [
+              "吉他音箱"
+            ],
+            "reason": "匹配词：吉他音箱"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4893430999945849,
+      "hybrid_seconds": 0.2683499000268057,
+      "retrieval_seconds": 0.008665300032589585
+    },
+    {
+      "id": "hy-79",
+      "title": "电笔能用",
+      "acceptable": [
+        "工具"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.6963844299316406,
+        "support": 0.9983453750610352
+      },
+      "baseline": [
+        "电子产品"
+      ],
+      "hybrid": [
+        "工具"
+      ],
+      "retrieval": [
+        "工具"
+      ],
+      "lexicon_fallback": [
+        "工具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "工具",
+        "candidates": [
+          {
+            "category": "工具",
+            "source": "hybrid",
+            "evidence": [
+              "测电笔"
+            ],
+            "reason": "匹配词：测电笔"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4601363999536261,
+      "hybrid_seconds": 0.2595145999803208,
+      "retrieval_seconds": 0.009203499997965991
+    },
+    {
+      "id": "hy-80",
+      "title": "家用电钻全套",
+      "acceptable": [
+        "工具"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "家居用品",
+        "score": 0.522832453250885,
+        "support": 0.9998511075973511
+      },
+      "baseline": [],
+      "hybrid": [
+        "工具"
+      ],
+      "retrieval": [
+        "工具"
+      ],
+      "lexicon_fallback": [
+        "工具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "工具",
+        "candidates": [
+          {
+            "category": "工具",
+            "source": "hybrid",
+            "evidence": [
+              "电钻"
+            ],
+            "reason": "匹配词：电钻"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4749964000075124,
+      "hybrid_seconds": 0.2592511999537237,
+      "retrieval_seconds": 0.009156100044492632
+    },
+    {
+      "id": "hy-81",
+      "title": "绘画用画笔十支",
+      "acceptable": [
+        "工具"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.4041542112827301,
+        "support": 0.9385187029838562
+      },
+      "baseline": [],
+      "hybrid": [
+        "工具"
+      ],
+      "retrieval": [
+        "工具"
+      ],
+      "lexicon_fallback": [
+        "工具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "工具",
+        "candidates": [
+          {
+            "category": "工具",
+            "source": "hybrid",
+            "evidence": [
+              "画笔"
+            ],
+            "reason": "匹配词：画笔"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.5002355999895371,
+      "hybrid_seconds": 0.2728394999867305,
+      "retrieval_seconds": 0.008974600001238286
+    },
+    {
+      "id": "hy-82",
+      "title": "手工切割垫",
+      "acceptable": [
+        "工具"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.30411481857299805,
+        "support": 0.996259331703186
+      },
+      "baseline": [],
+      "hybrid": [
+        "工具"
+      ],
+      "retrieval": [
+        "工具"
+      ],
+      "lexicon_fallback": [
+        "工具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "工具",
+        "candidates": [
+          {
+            "category": "工具",
+            "source": "hybrid",
+            "evidence": [
+              "手工切割垫"
+            ],
+            "reason": "匹配词：手工切割垫"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4544613999896683,
+      "hybrid_seconds": 0.2569122000131756,
+      "retrieval_seconds": 0.008774899994023144
+    },
+    {
+      "id": "hy-83",
+      "title": "螺丝刀和玩具汽车模型",
+      "acceptable": [
+        "工具",
+        "玩具"
+      ],
+      "kind": "combination",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.8669490218162537,
+        "support": 0.9999040365219116
+      },
+      "baseline": [
+        "运动器材"
+      ],
+      "hybrid": [
+        "玩具",
+        "工具"
+      ],
+      "retrieval": [
+        "玩具",
+        "工具"
+      ],
+      "lexicon_fallback": [
+        "玩具",
+        "工具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": null,
+        "candidates": [
+          {
+            "category": "玩具",
+            "source": "hybrid",
+            "evidence": [
+              "汽车模型"
+            ],
+            "reason": "匹配词：汽车模型"
+          },
+          {
+            "category": "工具",
+            "source": "hybrid",
+            "evidence": [
+              "螺丝刀"
+            ],
+            "reason": "匹配词：螺丝刀"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.505971500009764,
+      "hybrid_seconds": 0.30714079999597743,
+      "retrieval_seconds": 0.017533899983391166
+    },
+    {
+      "id": "hy-92",
+      "title": "玩具琴给小朋友玩的",
+      "acceptable": [
+        "玩具"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "玩具",
+        "score": 0.5448246598243713,
+        "support": 0.9998691082000732
+      },
+      "baseline": [],
+      "hybrid": [
+        "玩具"
+      ],
+      "retrieval": [
+        "玩具"
+      ],
+      "lexicon_fallback": [
+        "玩具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "玩具",
+        "candidates": [
+          {
+            "category": "玩具",
+            "source": "hybrid",
+            "evidence": [
+              "声光玩具琴"
+            ],
+            "reason": "匹配词：声光玩具琴"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.49774939997587353,
+      "hybrid_seconds": 0.26337870000861585,
+      "retrieval_seconds": 0.009049899992533028
+    },
+    {
+      "id": "hy-93",
+      "title": "积木一大盒",
+      "acceptable": [
+        "玩具"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.438723623752594,
+        "support": 0.99718177318573
+      },
+      "baseline": [],
+      "hybrid": [
+        "玩具"
+      ],
+      "retrieval": [
+        "玩具"
+      ],
+      "lexicon_fallback": [
+        "玩具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "玩具",
+        "candidates": [
+          {
+            "category": "玩具",
+            "source": "hybrid",
+            "evidence": [
+              "拼插积木"
+            ],
+            "reason": "匹配词：拼插积木"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4545325000071898,
+      "hybrid_seconds": 0.2571954000159167,
+      "retrieval_seconds": 0.009197100007440895
+    },
+    {
+      "id": "hy-94",
+      "title": "动漫手办带盒",
+      "acceptable": [
+        "玩具"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "服装",
+        "score": 0.34692445397377014,
+        "support": 0.9901054501533508
+      },
+      "baseline": [],
+      "hybrid": [
+        "玩具"
+      ],
+      "retrieval": [
+        "玩具"
+      ],
+      "lexicon_fallback": [
+        "玩具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "玩具",
+        "candidates": [
+          {
+            "category": "玩具",
+            "source": "hybrid",
+            "evidence": [
+              "动漫手办"
+            ],
+            "reason": "匹配词：动漫手办"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4664631000487134,
+      "hybrid_seconds": 0.25515840004663914,
+      "retrieval_seconds": 0.008997099997941405
+    },
+    {
+      "id": "hy-95",
+      "title": "UNO牌全套",
+      "acceptable": [
+        "玩具"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "运动器材",
+        "score": 0.43299180269241333,
+        "support": 0.9997288584709167
+      },
+      "baseline": [],
+      "hybrid": [
+        "玩具"
+      ],
+      "retrieval": [
+        "玩具"
+      ],
+      "lexicon_fallback": [
+        "玩具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "玩具",
+        "candidates": [
+          {
+            "category": "玩具",
+            "source": "hybrid",
+            "evidence": [
+              "UNO牌"
+            ],
+            "reason": "匹配词：UNO牌"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4565178999910131,
+      "hybrid_seconds": 0.25456289999419823,
+      "retrieval_seconds": 0.008737299998756498
+    },
+    {
+      "id": "hy-96",
+      "title": "琴和积木",
+      "acceptable": [
+        "乐器",
+        "玩具"
+      ],
+      "kind": "ambiguous",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "书籍",
+        "score": 0.34565892815589905,
+        "support": 0.9978475570678711
+      },
+      "baseline": [],
+      "hybrid": [
+        "玩具",
+        "乐器"
+      ],
+      "retrieval": [
+        "玩具",
+        "乐器"
+      ],
+      "lexicon_fallback": [
+        "玩具"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": null,
+        "candidates": [
+          {
+            "category": "玩具",
+            "source": "hybrid",
+            "evidence": [
+              "拼插积木",
+              "声光玩具琴"
+            ],
+            "reason": "匹配词：拼插积木、声光玩具琴"
+          },
+          {
+            "category": "乐器",
+            "source": "hybrid",
+            "evidence": [
+              "古琴",
+              "柳琴"
+            ],
+            "reason": "匹配词：古琴、柳琴"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.49848389998078346,
+      "hybrid_seconds": 0.2912797999451868,
+      "retrieval_seconds": 0.017369700013659894
+    },
+    {
+      "id": "hy-105",
+      "title": "马赛克装饰画成品",
+      "acceptable": [
+        "艺术品"
+      ],
+      "kind": "alias",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "艺术品",
+        "score": 0.5182290077209473,
+        "support": 0.9994696974754333
+      },
+      "baseline": [],
+      "hybrid": [
+        "艺术品"
+      ],
+      "retrieval": [
+        "艺术品"
+      ],
+      "lexicon_fallback": [
+        "艺术品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "艺术品",
+        "candidates": [
+          {
+            "category": "艺术品",
+            "source": "hybrid",
+            "evidence": [
+              "马赛克艺术画"
+            ],
+            "reason": "匹配词：马赛克艺术画"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4924155999906361,
+      "hybrid_seconds": 0.2696886999765411,
+      "retrieval_seconds": 0.009019399993121624
+    },
+    {
+      "id": "hy-106",
+      "title": "手工刺绣作品",
+      "acceptable": [
+        "艺术品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.6290698051452637,
+        "support": 0.9861677289009094
+      },
+      "baseline": [],
+      "hybrid": [
+        "艺术品"
+      ],
+      "retrieval": [
+        "艺术品"
+      ],
+      "lexicon_fallback": [
+        "艺术品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "艺术品",
+        "candidates": [
+          {
+            "category": "艺术品",
+            "source": "hybrid",
+            "evidence": [
+              "刺绣作品"
+            ],
+            "reason": "匹配词：刺绣作品"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.45887249999213964,
+      "hybrid_seconds": 0.2657314999960363,
+      "retrieval_seconds": 0.009550000017043203
+    },
+    {
+      "id": "hy-107",
+      "title": "装饰画挂客厅的",
+      "acceptable": [
+        "艺术品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "艺术品",
+        "score": 0.7692979574203491,
+        "support": 0.9998283386230469
+      },
+      "baseline": [
+        "艺术品"
+      ],
+      "hybrid": [
+        "艺术品"
+      ],
+      "retrieval": [
+        "艺术品"
+      ],
+      "lexicon_fallback": [
+        "艺术品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "艺术品",
+        "candidates": [
+          {
+            "category": "艺术品",
+            "source": "hybrid",
+            "evidence": [
+              "装饰画"
+            ],
+            "reason": "匹配词：装饰画"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.49705920001724735,
+      "hybrid_seconds": 0.2696944000199437,
+      "retrieval_seconds": 0.008624000009149313
+    },
+    {
+      "id": "hy-108",
+      "title": "木雕作品一件",
+      "acceptable": [
+        "艺术品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.4520154297351837,
+        "support": 0.9898278713226318
+      },
+      "baseline": [],
+      "hybrid": [
+        "艺术品"
+      ],
+      "retrieval": [
+        "艺术品"
+      ],
+      "lexicon_fallback": [
+        "艺术品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "艺术品",
+        "candidates": [
+          {
+            "category": "艺术品",
+            "source": "hybrid",
+            "evidence": [
+              "木雕作品"
+            ],
+            "reason": "匹配词：木雕作品"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.4629778999951668,
+      "hybrid_seconds": 0.264160200022161,
+      "retrieval_seconds": 0.008580099965911359
+    },
+    {
+      "id": "hy-109",
+      "title": "摄影艺术作品装框",
+      "acceptable": [
+        "艺术品"
+      ],
+      "kind": "full",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.3327683210372925,
+        "support": 0.8553082346916199
+      },
+      "baseline": [],
+      "hybrid": [
+        "艺术品"
+      ],
+      "retrieval": [
+        "艺术品"
+      ],
+      "lexicon_fallback": [
+        "艺术品"
+      ],
+      "response": {
+        "status": "suggested",
+        "category": "艺术品",
+        "candidates": [
+          {
+            "category": "艺术品",
+            "source": "hybrid",
+            "evidence": [
+              "摄影艺术作品"
+            ],
+            "reason": "匹配词：摄影艺术作品"
+          }
+        ],
+        "source": "hybrid",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "请选择符合实际商品的分类"
+      },
+      "baseline_seconds": 0.471087499987334,
+      "hybrid_seconds": 0.26268400001572445,
+      "retrieval_seconds": 0.009023999969940633
+    },
+    {
+      "id": "hy-118",
+      "title": "绿萝带盆",
+      "acceptable": [
+        "其他"
+      ],
+      "kind": "other",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.3061709702014923,
+        "support": 0.9948090314865112
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "model",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.466969600005541,
+      "hybrid_seconds": 0.5846409000223503,
+      "retrieval_seconds": 0.008747899963054806
+    },
+    {
+      "id": "hy-119",
+      "title": "向日葵花种",
+      "acceptable": [
+        "其他"
+      ],
+      "kind": "other",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.4004630148410797,
+        "support": 0.9948504567146301
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "model",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.4706280000391416,
+      "hybrid_seconds": 0.599293100007344,
+      "retrieval_seconds": 0.008687399968039244
+    },
+    {
+      "id": "hy-120",
+      "title": "多肉植物一盆",
+      "acceptable": [
+        "其他"
+      ],
+      "kind": "other",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.41365599632263184,
+        "support": 0.9948924779891968
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "model",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.468170200008899,
+      "hybrid_seconds": 0.5911338999867439,
+      "retrieval_seconds": 0.009000399964861572
+    },
+    {
+      "id": "hy-127",
+      "title": "帮我修手机",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": "电子产品",
+        "score": 0.46318110823631287,
+        "support": 0.9999279975891113
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.45374259998789057,
+      "hybrid_seconds": 4.999979864805937e-06,
+      "retrieval_seconds": 7.920002099126577e-05
+    },
+    {
+      "id": "hy-128",
+      "title": "招聘吉他老师",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.27416282892227173,
+        "support": 0.9998524188995361
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.4715089999954216,
+      "hybrid_seconds": 4.399975296109915e-06,
+      "retrieval_seconds": 1.6300007700920105e-05
+    },
+    {
+      "id": "hy-129",
+      "title": "今天心情不错",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.8749246001243591,
+        "support": 0.997430145740509
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "model",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.44870330003323033,
+      "hybrid_seconds": 0.5678373000118881,
+      "retrieval_seconds": 0.00904969999101013
+    },
+    {
+      "id": "hy-130",
+      "title": "东西",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.48151955008506775,
+        "support": 0.9829009175300598
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.41058490000432357,
+      "hybrid_seconds": 6.099988240748644e-06,
+      "retrieval_seconds": 7.680000271648169e-05
+    },
+    {
+      "id": "hy-131",
+      "title": "器",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.34039533138275146,
+        "support": 0.9555624127388
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.41535720002138987,
+      "hybrid_seconds": 5.299982149153948e-06,
+      "retrieval_seconds": 1.5600002370774746e-05
+    },
+    {
+      "id": "hy-132",
+      "title": "品",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.6449863314628601,
+        "support": 0.9780057072639465
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.4136813000077382,
+      "hybrid_seconds": 5.699985194951296e-06,
+      "retrieval_seconds": 1.610000617802143e-05
+    },
+    {
+      "id": "hy-133",
+      "title": "马赛克怎么去掉",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.24399898946285248,
+        "support": 0.9500473141670227
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.49016670003766194,
+      "hybrid_seconds": 5.699985194951296e-06,
+      "retrieval_seconds": 2.2600055672228336e-05
+    },
+    {
+      "id": "hy-134",
+      "title": "求购电饭煲",
+      "acceptable": [],
+      "kind": "reject",
+      "source": "agent_synthetic",
+      "split": "dev",
+      "baseline_raw_top": {
+        "category": null,
+        "score": 0.23126432299613953,
+        "support": 0.9994165897369385
+      },
+      "baseline": [],
+      "hybrid": [],
+      "retrieval": [],
+      "lexicon_fallback": [],
+      "response": {
+        "status": "uncertain",
+        "category": null,
+        "candidates": [],
+        "source": "none",
+        "degraded": false,
+        "version": "hybrid-v1",
+        "message": "信息不足或分类不明确，请补充商品名称或手动选择"
+      },
+      "baseline_seconds": 0.47645279997959733,
+      "hybrid_seconds": 4.299974534660578e-06,
+      "retrieval_seconds": 1.6200006939470768e-05
+    }
+  ],
+  "baseline": {
+    "top1_accuracy_single_label_including_abstention": 0.2727272727272727,
+    "macro_f1_single_label": 0.309047619047619,
+    "candidate_hit_rate_classifiable": 0.2553191489361702,
+    "coverage_all": 0.35714285714285715,
+    "top1_accuracy_among_recommended": 0.6,
+    "mean_candidates_when_recommended": 1,
+    "irrelevant_candidates": 8,
+    "invalid_recommended": 1,
+    "invalid_total": 9,
+    "per_class": {
+      "电子产品": {
+        "n": 3,
+        "f1": 0.5714285714285714,
+        "precision": 0.5,
+        "recall": 0.6666666666666666
+      },
+      "书籍": {
+        "n": 5,
+        "f1": 0.75,
+        "precision": 1.0,
+        "recall": 0.6
+      },
+      "服装": {
+        "n": 5,
+        "f1": 0.3333333333333333,
+        "precision": 1.0,
+        "recall": 0.2
+      },
+      "家居用品": {
+        "n": 5,
+        "f1": 0.75,
+        "precision": 1.0,
+        "recall": 0.6
+      },
+      "运动器材": {
+        "n": 4,
+        "f1": 0.4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5
+      },
+      "乐器": {
+        "n": 5,
+        "f1": 0.0,
+        "precision": 0,
+        "recall": 0.0
+      },
+      "工具": {
+        "n": 4,
+        "f1": 0.0,
+        "precision": 0,
+        "recall": 0.0
+      },
+      "玩具": {
+        "n": 4,
+        "f1": 0.0,
+        "precision": 0,
+        "recall": 0.0
+      },
+      "艺术品": {
+        "n": 6,
+        "f1": 0.2857142857142857,
+        "precision": 1.0,
+        "recall": 0.16666666666666666
+      },
+      "其他": {
+        "n": 3,
+        "f1": 0.0,
+        "precision": 0,
+        "recall": 0.0
+      }
+    }
+  },
+  "hybrid": {
+    "top1_accuracy_single_label_including_abstention": 0.8863636363636364,
+    "macro_f1_single_label": 0.8777777777777778,
+    "candidate_hit_rate_classifiable": 0.8936170212765957,
+    "coverage_all": 0.75,
+    "top1_accuracy_among_recommended": 1.0,
+    "mean_candidates_when_recommended": 1.0714285714285714,
+    "irrelevant_candidates": 0,
+    "invalid_recommended": 0,
+    "invalid_total": 9,
+    "per_class": {
+      "电子产品": {
+        "n": 3,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "书籍": {
+        "n": 5,
+        "f1": 0.8888888888888888,
+        "precision": 1.0,
+        "recall": 0.8
+      },
+      "服装": {
+        "n": 5,
+        "f1": 0.8888888888888888,
+        "precision": 1.0,
+        "recall": 0.8
+      },
+      "家居用品": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "运动器材": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "乐器": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "工具": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "玩具": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "艺术品": {
+        "n": 6,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "其他": {
+        "n": 3,
+        "f1": 0.0,
+        "precision": 0,
+        "recall": 0.0
+      }
+    }
+  },
+  "retrieval": {
+    "top1_accuracy_single_label_including_abstention": 0.9318181818181818,
+    "macro_f1_single_label": 0.9,
+    "candidate_hit_rate_classifiable": 0.9361702127659575,
+    "coverage_all": 0.7857142857142857,
+    "top1_accuracy_among_recommended": 1.0,
+    "mean_candidates_when_recommended": 1.0681818181818181,
+    "irrelevant_candidates": 0,
+    "invalid_recommended": 0,
+    "invalid_total": 9,
+    "per_class": {
+      "电子产品": {
+        "n": 3,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "书籍": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "服装": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "家居用品": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "运动器材": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "乐器": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "工具": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "玩具": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "艺术品": {
+        "n": 6,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "其他": {
+        "n": 3,
+        "f1": 0.0,
+        "precision": 0,
+        "recall": 0.0
+      }
+    }
+  },
+  "lexicon_fallback": {
+    "top1_accuracy_single_label_including_abstention": 0.9090909090909091,
+    "macro_f1_single_label": 0.8909090909090909,
+    "candidate_hit_rate_classifiable": 0.8936170212765957,
+    "coverage_all": 0.75,
+    "top1_accuracy_among_recommended": 1.0,
+    "mean_candidates_when_recommended": 1.0238095238095237,
+    "irrelevant_candidates": 0,
+    "invalid_recommended": 0,
+    "invalid_total": 9,
+    "per_class": {
+      "电子产品": {
+        "n": 3,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "书籍": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "服装": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "家居用品": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "运动器材": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "乐器": {
+        "n": 5,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "工具": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "玩具": {
+        "n": 4,
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "艺术品": {
+        "n": 6,
+        "f1": 0.9090909090909091,
+        "precision": 1.0,
+        "recall": 0.8333333333333334
+      },
+      "其他": {
+        "n": 3,
+        "f1": 0.0,
+        "precision": 0,
+        "recall": 0.0
+      }
+    }
+  },
+  "baseline_raw_top1_single_label": 0.38636363636363635,
+  "regressions": [],
+  "baseline_latency": {
+    "n": 56,
+    "median": 0.473941449978156,
+    "p95": 0.505971500009764
+  },
+  "hybrid_latency": {
+    "n": 56,
+    "median": 0.26357959999586456,
+    "p95": 0.5678373000118881
+  },
+  "retrieval_latency": {
+    "n": 56,
+    "median": 0.008998749981401488,
+    "p95": 0.00983629998518154
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "version": 1,
+  "category": "书籍",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "books-001",
+      "term": "高等数学教材",
+      "aliases": [
+        "高数教材",
+        "高数课本"
+      ]
+    },
+    {
+      "id": "books-002",
+      "term": "线性代数教材",
+      "aliases": []
+    },
+    {
+      "id": "books-003",
+      "term": "概率论教材",
+      "aliases": []
+    },
+    {
+      "id": "books-004",
+      "term": "大学物理教材",
+      "aliases": []
+    },
+    {
+      "id": "books-005",
+      "term": "大学化学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-006",
+      "term": "大学英语教材",
+      "aliases": []
+    },
+    {
+      "id": "books-007",
+      "term": "程序设计教材",
+      "aliases": []
+    },
+    {
+      "id": "books-008",
+      "term": "数据结构教材",
+      "aliases": []
+    },
+    {
+      "id": "books-009",
+      "term": "计算机网络教材",
+      "aliases": []
+    },
+    {
+      "id": "books-010",
+      "term": "操作系统教材",
+      "aliases": []
+    },
+    {
+      "id": "books-011",
+      "term": "数据库教材",
+      "aliases": []
+    },
+    {
+      "id": "books-012",
+      "term": "人工智能教材",
+      "aliases": []
+    },
+    {
+      "id": "books-013",
+      "term": "机器学习教材",
+      "aliases": []
+    },
+    {
+      "id": "books-014",
+      "term": "统计学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-015",
+      "term": "经济学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-016",
+      "term": "管理学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-017",
+      "term": "会计学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-018",
+      "term": "金融学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-019",
+      "term": "市场营销教材",
+      "aliases": []
+    },
+    {
+      "id": "books-020",
+      "term": "法学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-021",
+      "term": "心理学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-022",
+      "term": "教育学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-023",
+      "term": "社会学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-024",
+      "term": "医学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-025",
+      "term": "解剖学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-026",
+      "term": "生理学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-027",
+      "term": "药理学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-028",
+      "term": "机械制图教材",
+      "aliases": []
+    },
+    {
+      "id": "books-029",
+      "term": "电路教材",
+      "aliases": []
+    },
+    {
+      "id": "books-030",
+      "term": "工程力学教材",
+      "aliases": []
+    },
+    {
+      "id": "books-031",
+      "term": "考研英语资料",
+      "aliases": []
+    },
+    {
+      "id": "books-032",
+      "term": "考研政治资料",
+      "aliases": []
+    },
+    {
+      "id": "books-033",
+      "term": "考研数学资料",
+      "aliases": []
+    },
+    {
+      "id": "books-034",
+      "term": "考研专业课资料",
+      "aliases": []
+    },
+    {
+      "id": "books-035",
+      "term": "考研真题",
+      "aliases": []
+    },
+    {
+      "id": "books-036",
+      "term": "考研笔记",
+      "aliases": []
+    },
+    {
+      "id": "books-037",
+      "term": "考研词汇书",
+      "aliases": []
+    },
+    {
+      "id": "books-038",
+      "term": "考研作文书",
+      "aliases": []
+    },
+    {
+      "id": "books-039",
+      "term": "复试资料",
+      "aliases": []
+    },
+    {
+      "id": "books-040",
+      "term": "保研资料",
+      "aliases": []
+    },
+    {
+      "id": "books-041",
+      "term": "四级词汇书",
+      "aliases": []
+    },
+    {
+      "id": "books-042",
+      "term": "六级词汇书",
+      "aliases": []
+    },
+    {
+      "id": "books-043",
+      "term": "四级真题",
+      "aliases": []
+    },
+    {
+      "id": "books-044",
+      "term": "六级真题",
+      "aliases": [
+        "六级卷子"
+      ]
+    },
+    {
+      "id": "books-045",
+      "term": "雅思教材",
+      "aliases": []
+    },
+    {
+      "id": "books-046",
+      "term": "托福教材",
+      "aliases": []
+    },
+    {
+      "id": "books-047",
+      "term": "GRE词汇书",
+      "aliases": []
+    },
+    {
+      "id": "books-048",
+      "term": "专四资料",
+      "aliases": []
+    },
+    {
+      "id": "books-049",
+      "term": "专八资料",
+      "aliases": []
+    },
+    {
+      "id": "books-050",
+      "term": "英语语法书",
+      "aliases": []
+    },
+    {
+      "id": "books-051",
+      "term": "公务员考试资料",
+      "aliases": []
+    },
+    {
+      "id": "books-052",
+      "term": "事业单位考试资料",
+      "aliases": []
+    },
+    {
+      "id": "books-053",
+      "term": "教师资格证资料",
+      "aliases": []
+    },
+    {
+      "id": "books-054",
+      "term": "法律职业资格考试资料",
+      "aliases": []
+    },
+    {
+      "id": "books-055",
+      "term": "注册会计师资料",
+      "aliases": []
+    },
+    {
+      "id": "books-056",
+      "term": "初级会计考试资料",
+      "aliases": []
+    },
+    {
+      "id": "books-057",
+      "term": "计算机等级考试资料",
+      "aliases": []
+    },
+    {
+      "id": "books-058",
+      "term": "普通话考试资料",
+      "aliases": []
+    },
+    {
+      "id": "books-059",
+      "term": "驾考题库",
+      "aliases": []
+    },
+    {
+      "id": "books-060",
+      "term": "职业资格考试用书",
+      "aliases": []
+    },
+    {
+      "id": "books-061",
+      "term": "小说",
+      "aliases": []
+    },
+    {
+      "id": "books-062",
+      "term": "散文集",
+      "aliases": []
+    },
+    {
+      "id": "books-063",
+      "term": "诗集",
+      "aliases": []
+    },
+    {
+      "id": "books-064",
+      "term": "短篇小说集",
+      "aliases": []
+    },
+    {
+      "id": "books-065",
+      "term": "推理小说",
+      "aliases": []
+    },
+    {
+      "id": "books-066",
+      "term": "科幻小说",
+      "aliases": []
+    },
+    {
+      "id": "books-067",
+      "term": "历史小说",
+      "aliases": []
+    },
+    {
+      "id": "books-068",
+      "term": "人物传记",
+      "aliases": []
+    },
+    {
+      "id": "books-069",
+      "term": "世界名著",
+      "aliases": []
+    },
+    {
+      "id": "books-070",
+      "term": "漫画书",
+      "aliases": [
+        "漫画"
+      ]
+    },
+    {
+      "id": "books-071",
+      "term": "绘本",
+      "aliases": []
+    },
+    {
+      "id": "books-072",
+      "term": "童话书",
+      "aliases": []
+    },
+    {
+      "id": "books-073",
+      "term": "儿童百科",
+      "aliases": []
+    },
+    {
+      "id": "books-074",
+      "term": "历史读物",
+      "aliases": []
+    },
+    {
+      "id": "books-075",
+      "term": "哲学读物",
+      "aliases": []
+    },
+    {
+      "id": "books-076",
+      "term": "心理学读物",
+      "aliases": []
+    },
+    {
+      "id": "books-077",
+      "term": "经济学读物",
+      "aliases": []
+    },
+    {
+      "id": "books-078",
+      "term": "科普读物",
+      "aliases": []
+    },
+    {
+      "id": "books-079",
+      "term": "艺术画册",
+      "aliases": []
+    },
+    {
+      "id": "books-080",
+      "term": "摄影书",
+      "aliases": []
+    },
+    {
+      "id": "books-081",
+      "term": "设计书",
+      "aliases": []
+    },
+    {
+      "id": "books-082",
+      "term": "建筑书",
+      "aliases": []
+    },
+    {
+      "id": "books-083",
+      "term": "编程书",
+      "aliases": []
+    },
+    {
+      "id": "books-084",
+      "term": "菜谱",
+      "aliases": []
+    },
+    {
+      "id": "books-085",
+      "term": "旅行指南",
+      "aliases": []
+    },
+    {
+      "id": "books-086",
+      "term": "音乐教材",
+      "aliases": []
+    },
+    {
+      "id": "books-087",
+      "term": "乐谱",
+      "aliases": []
+    },
+    {
+      "id": "books-088",
+      "term": "字帖",
+      "aliases": []
+    },
+    {
+      "id": "books-089",
+      "term": "书法教程",
+      "aliases": []
+    },
+    {
+      "id": "books-090",
+      "term": "绘画教程",
+      "aliases": []
+    },
+    {
+      "id": "books-091",
+      "term": "字典",
+      "aliases": []
+    },
+    {
+      "id": "books-092",
+      "term": "词典",
+      "aliases": []
+    },
+    {
+      "id": "books-093",
+      "term": "百科全书",
+      "aliases": []
+    },
+    {
+      "id": "books-094",
+      "term": "地图册",
+      "aliases": []
+    },
+    {
+      "id": "books-095",
+      "term": "杂志",
+      "aliases": []
+    },
+    {
+      "id": "books-096",
+      "term": "期刊",
+      "aliases": []
+    },
+    {
+      "id": "books-097",
+      "term": "课程讲义",
+      "aliases": []
+    },
+    {
+      "id": "books-098",
+      "term": "课堂笔记",
+      "aliases": []
+    },
+    {
+      "id": "books-099",
+      "term": "实验指导书",
+      "aliases": []
+    },
+    {
+      "id": "books-100",
+      "term": "习题集",
+      "aliases": []
+    }
+  ]
+}

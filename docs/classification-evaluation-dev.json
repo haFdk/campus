@@ -1,0 +1,286 @@
+{
+  "warning": "Agent-authored synthetic smoke samples; not real-user or independently human-labeled evaluation.",
+  "model": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+  "revision": "8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+  "split": "dev",
+  "template": "这段文字描述的是{label}。",
+  "thresholds": {
+    "CLASSIFICATION_MIN_MARGIN": 0.25,
+    "CLASSIFICATION_MIN_SCORE": 0.45,
+    "CLASSIFICATION_MIN_SUPPORT": 0.7
+  },
+  "environment": {
+    "python": "3.12.10",
+    "cpu": "Intel64 Family 6 Model 204 Stepping 2, GenuineIntel",
+    "threads": 2,
+    "ram_gb": 31.51613998413086
+  },
+  "load_seconds": 6.133040999993682,
+  "rss_mb": 1650.84375,
+  "median_seconds": 0.585309549998783,
+  "p95_seconds": 0.6316994999942835,
+  "top1_accuracy_classifiable": 0.9,
+  "macro_f1_classifiable": 0.9,
+  "recommendation_coverage_all": 0.5,
+  "accepted_accuracy": 1.0,
+  "per_class": {
+    "电子产品": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "书籍": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "服装": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "家居用品": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "运动器材": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "乐器": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "工具": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "玩具": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "艺术品": {
+      "support": 1,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "其他": {
+      "support": 1,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "results": [
+    {
+      "split": "dev",
+      "label": "电子产品",
+      "text": "无线鼠标，USB接收器齐全，左右键正常。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.8143444657325745,
+        "support": 0.999923586845398
+      },
+      "margin": 0.661605179309845,
+      "accepted": true,
+      "seconds": 0.7115317999996478
+    },
+    {
+      "split": "dev",
+      "label": "书籍",
+      "text": "考研英语词汇书，少量铅笔笔记。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "书籍",
+        "score": 0.9745392799377441,
+        "support": 0.9994449019432068
+      },
+      "margin": 0.9555186424404383,
+      "accepted": true,
+      "seconds": 0.6077923000120791
+    },
+    {
+      "split": "dev",
+      "label": "服装",
+      "text": "冬季羽绒外套，L码，清洗过。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "服装",
+        "score": 0.4465735852718353,
+        "support": 0.9995513558387756
+      },
+      "margin": 0.1592060625553131,
+      "accepted": false,
+      "seconds": 0.5777472999907332
+    },
+    {
+      "split": "dev",
+      "label": "家居用品",
+      "text": "宿舍用棉被，尺寸一米五乘两米。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "家居用品",
+        "score": 0.9708521366119385,
+        "support": 0.9998998641967773
+      },
+      "margin": 0.9474919252097607,
+      "accepted": true,
+      "seconds": 0.6006445000093663
+    },
+    {
+      "split": "dev",
+      "label": "运动器材",
+      "text": "羽毛球拍，拍线完好，附拍套。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "运动器材",
+        "score": 0.5921807289123535,
+        "support": 0.9999097585678101
+      },
+      "margin": 0.42492349445819855,
+      "accepted": true,
+      "seconds": 0.5844758000021102
+    },
+    {
+      "split": "dev",
+      "label": "乐器",
+      "text": "民谣吉他六弦，附调音器和琴包。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "乐器",
+        "score": 0.8670912981033325,
+        "support": 0.9999104738235474
+      },
+      "margin": 0.7686637192964554,
+      "accepted": true,
+      "seconds": 0.6099509000050602
+    },
+    {
+      "split": "dev",
+      "label": "工具",
+      "text": "十字螺丝刀套装，用于拆装家具。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "工具",
+        "score": 0.5752369165420532,
+        "support": 0.9996592998504639
+      },
+      "margin": 0.16925856471061707,
+      "accepted": false,
+      "seconds": 0.5744506999908481
+    },
+    {
+      "split": "dev",
+      "label": "玩具",
+      "text": "毛绒熊玩偶，洗干净了，适合抱着睡觉。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "玩具",
+        "score": 0.8519849181175232,
+        "support": 0.9988202452659607
+      },
+      "margin": 0.7323296517133713,
+      "accepted": true,
+      "seconds": 0.6316994999942835
+    },
+    {
+      "split": "dev",
+      "label": "艺术品",
+      "text": "原创油画作品，手绘校园风景，已装框。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "艺术品",
+        "score": 0.9379439949989319,
+        "support": 0.9984583854675293
+      },
+      "margin": 0.8957889042794704,
+      "accepted": true,
+      "seconds": 0.6129183000011835
+    },
+    {
+      "split": "dev",
+      "label": "其他",
+      "text": "阳台种的薄荷盆栽，带盆转让。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.8401816487312317,
+        "support": 0.9971000552177429
+      },
+      "margin": 0.7611075341701508,
+      "accepted": false,
+      "seconds": 0.5861432999954559
+    },
+    {
+      "split": "dev",
+      "label": null,
+      "text": "明天学校会不会下雨，我要不要带伞？",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.42927148938179016,
+        "support": 0.999789297580719
+      },
+      "margin": 0.21174046397209167,
+      "accepted": false,
+      "seconds": 0.5567808000050718
+    },
+    {
+      "split": "dev",
+      "label": null,
+      "text": "这个很新，需要的联系，便宜出。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": null,
+        "score": 0.6558622717857361,
+        "support": 0.9997918009757996
+      },
+      "margin": 0.4344225525856018,
+      "accepted": false,
+      "seconds": 0.5374317000096198
+    },
+    {
+      "split": "dev",
+      "label": null,
+      "text": "求同学帮忙修电脑，今晚有空吗？",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "电子产品",
+        "score": 0.2955462634563446,
+        "support": 0.9999150037765503
+      },
+      "margin": 0.01356390118598938,
+      "accepted": false,
+      "seconds": 0.5758708999928785
+    },
+    {
+      "split": "dev",
+      "label": null,
+      "text": "出一套键盘和教材，打包一起卖。",
+      "source": "agent_synthetic",
+      "top": {
+        "category": "书籍",
+        "score": 0.5994396209716797,
+        "support": 0.9998236298561096
+      },
+      "margin": 0.2189159095287323,
+      "accepted": false,
+      "seconds": 0.5637074999976903
+    }
+  ]
+}

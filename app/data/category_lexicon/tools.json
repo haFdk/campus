@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "category": "工具",
+  "source": "Agent 根据通用商品知识整理，未经真实词频统计",
+  "entries": [
+    {
+      "id": "tools-001",
+      "term": "螺丝刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-002",
+      "term": "精密螺丝刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-003",
+      "term": "电动螺丝刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-004",
+      "term": "棘轮螺丝刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-005",
+      "term": "内六角扳手",
+      "aliases": [
+        "内六角"
+      ]
+    },
+    {
+      "id": "tools-006",
+      "term": "活动扳手",
+      "aliases": []
+    },
+    {
+      "id": "tools-007",
+      "term": "开口扳手",
+      "aliases": []
+    },
+    {
+      "id": "tools-008",
+      "term": "梅花扳手",
+      "aliases": []
+    },
+    {
+      "id": "tools-009",
+      "term": "套筒扳手",
+      "aliases": []
+    },
+    {
+      "id": "tools-010",
+      "term": "扭力扳手",
+      "aliases": []
+    },
+    {
+      "id": "tools-011",
+      "term": "尖嘴钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-012",
+      "term": "老虎钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-013",
+      "term": "斜口钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-014",
+      "term": "水泵钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-015",
+      "term": "剥线钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-016",
+      "term": "压线钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-017",
+      "term": "卡簧钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-018",
+      "term": "大力钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-019",
+      "term": "断线钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-020",
+      "term": "网线钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-021",
+      "term": "羊角锤",
+      "aliases": [
+        "锤子"
+      ]
+    },
+    {
+      "id": "tools-022",
+      "term": "橡胶锤",
+      "aliases": []
+    },
+    {
+      "id": "tools-023",
+      "term": "木锤",
+      "aliases": []
+    },
+    {
+      "id": "tools-024",
+      "term": "美工刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-025",
+      "term": "雕刻刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-026",
+      "term": "裁纸刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-027",
+      "term": "剪刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-028",
+      "term": "铁皮剪",
+      "aliases": []
+    },
+    {
+      "id": "tools-029",
+      "term": "管子割刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-030",
+      "term": "玻璃刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-031",
+      "term": "手锯",
+      "aliases": []
+    },
+    {
+      "id": "tools-032",
+      "term": "钢锯",
+      "aliases": []
+    },
+    {
+      "id": "tools-033",
+      "term": "曲线锯",
+      "aliases": []
+    },
+    {
+      "id": "tools-034",
+      "term": "圆锯",
+      "aliases": []
+    },
+    {
+      "id": "tools-035",
+      "term": "电钻",
+      "aliases": []
+    },
+    {
+      "id": "tools-036",
+      "term": "冲击钻",
+      "aliases": []
+    },
+    {
+      "id": "tools-037",
+      "term": "电锤",
+      "aliases": []
+    },
+    {
+      "id": "tools-038",
+      "term": "电磨",
+      "aliases": []
+    },
+    {
+      "id": "tools-039",
+      "term": "角磨机",
+      "aliases": []
+    },
+    {
+      "id": "tools-040",
+      "term": "砂光机",
+      "aliases": []
+    },
+    {
+      "id": "tools-041",
+      "term": "钻头",
+      "aliases": []
+    },
+    {
+      "id": "tools-042",
+      "term": "螺丝批头",
+      "aliases": []
+    },
+    {
+      "id": "tools-043",
+      "term": "砂纸",
+      "aliases": []
+    },
+    {
+      "id": "tools-044",
+      "term": "锉刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-045",
+      "term": "木工刨",
+      "aliases": []
+    },
+    {
+      "id": "tools-046",
+      "term": "木工凿",
+      "aliases": []
+    },
+    {
+      "id": "tools-047",
+      "term": "台钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-048",
+      "term": "F夹",
+      "aliases": []
+    },
+    {
+      "id": "tools-049",
+      "term": "G夹",
+      "aliases": []
+    },
+    {
+      "id": "tools-050",
+      "term": "快夹",
+      "aliases": []
+    },
+    {
+      "id": "tools-051",
+      "term": "卷尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-052",
+      "term": "钢直尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-053",
+      "term": "直角尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-054",
+      "term": "游标卡尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-055",
+      "term": "千分尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-056",
+      "term": "水平尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-057",
+      "term": "激光测距仪",
+      "aliases": []
+    },
+    {
+      "id": "tools-058",
+      "term": "角度尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-059",
+      "term": "塞尺",
+      "aliases": []
+    },
+    {
+      "id": "tools-060",
+      "term": "划线器",
+      "aliases": []
+    },
+    {
+      "id": "tools-061",
+      "term": "万用表",
+      "aliases": []
+    },
+    {
+      "id": "tools-062",
+      "term": "测电笔",
+      "aliases": [
+        "电笔"
+      ]
+    },
+    {
+      "id": "tools-063",
+      "term": "电烙铁",
+      "aliases": []
+    },
+    {
+      "id": "tools-064",
+      "term": "焊台",
+      "aliases": []
+    },
+    {
+      "id": "tools-065",
+      "term": "吸锡器",
+      "aliases": []
+    },
+    {
+      "id": "tools-066",
+      "term": "焊锡丝",
+      "aliases": []
+    },
+    {
+      "id": "tools-067",
+      "term": "助焊剂",
+      "aliases": []
+    },
+    {
+      "id": "tools-068",
+      "term": "热风枪",
+      "aliases": []
+    },
+    {
+      "id": "tools-069",
+      "term": "热熔胶枪",
+      "aliases": []
+    },
+    {
+      "id": "tools-070",
+      "term": "热熔胶棒",
+      "aliases": []
+    },
+    {
+      "id": "tools-071",
+      "term": "镊子",
+      "aliases": []
+    },
+    {
+      "id": "tools-072",
+      "term": "手机拆机工具",
+      "aliases": []
+    },
+    {
+      "id": "tools-073",
+      "term": "吸盘拆屏器",
+      "aliases": []
+    },
+    {
+      "id": "tools-074",
+      "term": "防静电手环",
+      "aliases": []
+    },
+    {
+      "id": "tools-075",
+      "term": "维修放大镜",
+      "aliases": []
+    },
+    {
+      "id": "tools-076",
+      "term": "螺丝收纳盒",
+      "aliases": []
+    },
+    {
+      "id": "tools-077",
+      "term": "工具箱",
+      "aliases": []
+    },
+    {
+      "id": "tools-078",
+      "term": "工具包",
+      "aliases": []
+    },
+    {
+      "id": "tools-079",
+      "term": "维修垫",
+      "aliases": []
+    },
+    {
+      "id": "tools-080",
+      "term": "零件托盘",
+      "aliases": []
+    },
+    {
+      "id": "tools-081",
+      "term": "缝纫机",
+      "aliases": []
+    },
+    {
+      "id": "tools-082",
+      "term": "缝纫针",
+      "aliases": []
+    },
+    {
+      "id": "tools-083",
+      "term": "拆线器",
+      "aliases": []
+    },
+    {
+      "id": "tools-084",
+      "term": "裁布剪",
+      "aliases": []
+    },
+    {
+      "id": "tools-085",
+      "term": "皮革打孔器",
+      "aliases": []
+    },
+    {
+      "id": "tools-086",
+      "term": "钩针",
+      "aliases": []
+    },
+    {
+      "id": "tools-087",
+      "term": "编织棒针",
+      "aliases": []
+    },
+    {
+      "id": "tools-088",
+      "term": "打磨棒",
+      "aliases": []
+    },
+    {
+      "id": "tools-089",
+      "term": "模型剪钳",
+      "aliases": []
+    },
+    {
+      "id": "tools-090",
+      "term": "手工冲孔器",
+      "aliases": []
+    },
+    {
+      "id": "tools-091",
+      "term": "画笔",
+      "aliases": []
+    },
+    {
+      "id": "tools-092",
+      "term": "调色盘",
+      "aliases": []
+    },
+    {
+      "id": "tools-093",
+      "term": "画架",
+      "aliases": []
+    },
+    {
+      "id": "tools-094",
+      "term": "素描画板",
+      "aliases": []
+    },
+    {
+      "id": "tools-095",
+      "term": "颜料刮刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-096",
+      "term": "陶艺工具",
+      "aliases": []
+    },
+    {
+      "id": "tools-097",
+      "term": "黏土塑形工具",
+      "aliases": []
+    },
+    {
+      "id": "tools-098",
+      "term": "篆刻刀",
+      "aliases": []
+    },
+    {
+      "id": "tools-099",
+      "term": "皮革压线器",
+      "aliases": []
+    },
+    {
+      "id": "tools-100",
+      "term": "手工切割垫",
+      "aliases": []
+    }
+  ]
+}
