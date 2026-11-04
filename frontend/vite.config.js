@@ -33,24 +33,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (!id.includes('node_modules')) return
-          if (id.includes('element-plus') || id.includes('@element-plus')) {
-            return 'element-plus'
-          }
-          if (
-            id.includes('/vue/') ||
-            id.includes('vue-router') ||
-            id.includes('pinia')
-          ) {
-            return 'vue-vendor'
-          }
-          if (
-            id.includes('axios') ||
-            id.includes('dayjs') ||
-            id.includes('js-cookie')
-          ) {
-            return 'app-vendor'
-          }
+          // Keep shared Vue / Element Plus dependencies in one chunk.
+          // Splitting them by package name can create circular chunk imports
+          // that fail at module initialization even when vite build succeeds.
+          if (id.includes('node_modules')) return 'vendor'
         }
       }
     }
